@@ -2,9 +2,6 @@
 title: About
 description: About Stadial, and the purpose of this site!
 date: '2022-01-06'
-aliases:
-  - about-us
-  - contact
 lastmod: '2022-01-06'
 menu:
     main: 
