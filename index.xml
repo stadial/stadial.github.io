@@ -1,15 +1,304 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Final Exam: Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</guid><description>&lt;h1 id="exam-overview">Exam overview&lt;/h1>
-&lt;p>Reread my other post &lt;a class="link" href="../" >CS204&lt;/a>, and keep on prayin.&lt;/p>
+&lt;p>Reread my other post &lt;a class="link" href="../" >CS204&lt;/a>, and keep on prayin.&lt;br>
+Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DISCLAIMER&lt;/a>!&lt;/p>
 &lt;h1 id="ze-exam">Ze Exam&lt;/h1>
-&lt;h2 id="section-1">Section 1&lt;/h2>
-&lt;p>This section was multiple choice questions.&lt;/p>
-&lt;h3 id="1-which-of-the-following-is-not-a-logical-operator">1. Which of the following is &lt;em>NOT&lt;/em> a logical operator?&lt;/h3>
+&lt;h2 id="section-1-mcqs">Section 1 MCQs&lt;/h2>
+&lt;p>This section was Multiple Choice Questions.&lt;br>
+&lt;code>???&lt;/code> is a choice that I forgot :')&lt;/p>
+&lt;h3 id="which-of-the-following-is-not-a-logical-operator">Which of the following is &lt;em>NOT&lt;/em> a logical operator?&lt;/h3>
 &lt;ul>
 &lt;li>&lt;code>&amp;amp;&lt;/code>&lt;/li>
 &lt;li>&lt;code>&amp;amp;&amp;amp;&lt;/code>&lt;/li>
 &lt;li>&lt;code>||&lt;/code>&lt;/li>
 &lt;li>&lt;code>!&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/</link><pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/</guid><description>&lt;p>Long ago, on Svalbard, when you were a young witch of forty-three,
+&lt;/ul>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>&amp;amp;&lt;/p>
+&lt;/details>
+&lt;h3 id="which-of-the-following-transfers-control-to-the-calling-function">Which of the following transfers control to the calling function?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>switch&lt;/code>&lt;/li>
+&lt;li>&lt;code>return&lt;/code>&lt;/li>
+&lt;li>&lt;code>goto&lt;/code>&lt;/li>
+&lt;li>&lt;code>???&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>return&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="which-is-best-suidted-to-get-strings-that-contain-spaces-from-the-users">Which is best suidted to get strings that contain spaces from the users.&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>scanf&lt;/code>&lt;/li>
+&lt;li>&lt;code>printf&lt;/code>&lt;/li>
+&lt;li>&lt;code>puts&lt;/code>&lt;/li>
+&lt;li>&lt;code>gets&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>gets&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="performs-operation-then-checks-condition">Performs operation then checks condition&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>for&lt;/code>&lt;/li>
+&lt;li>&lt;code>do-while&lt;/code>&lt;/li>
+&lt;li>&lt;code>while&lt;/code>&lt;/li>
+&lt;li>&lt;code>???&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>do-while&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="how--many-times-does-the-following-code-repeat">How many times does the following code repeat?&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;=&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>Forever&lt;/code>&lt;/li>
+&lt;li>&lt;code>Never&lt;/code>&lt;/li>
+&lt;li>&lt;code>1&lt;/code>&lt;/li>
+&lt;li>&lt;code>-&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>Forever&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-is-the-order-of-operations-in-the-following-code">What is the order of operations in the following code?&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="n">z&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">x&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">y&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">z&lt;/span> &lt;span class="o">/&lt;/span> &lt;span class="mi">1&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="mi">3&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>*%/-+=&lt;/code>&lt;/li>
+&lt;li>&lt;code>*/%+-=&lt;/code>&lt;/li>
+&lt;li>&lt;code>=+*/%-&lt;/code>&lt;/li>
+&lt;li>&lt;code>-%/*+=&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>The second one&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="strcmp-returns-what-when-the-string-are-equal">&lt;code>strcmp&lt;/code> returns what when the string are equal?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>1&lt;/code>&lt;/li>
+&lt;li>&lt;code>0&lt;/code>&lt;/li>
+&lt;li>&lt;code>-1&lt;/code>&lt;/li>
+&lt;li>&lt;code>first string&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>0&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="which-of-the-following-isnt-an-arithmatic-operation">Which of the following isn&amp;rsquo;t an arithmatic operation?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>!=&lt;/code>&lt;/li>
+&lt;li>&lt;code>/=&lt;/code>&lt;/li>
+&lt;li>&lt;code>+=&lt;/code>&lt;/li>
+&lt;li>&lt;code>%=&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>!=&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="which-of-the-following-is-not-a-correct-use-of-pointers">Which of the following is &lt;em>NOT&lt;/em> a correct use of pointers?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>int arr[i];&lt;/code>&lt;/li>
+&lt;li>&lt;code>int arr[] = {1, 2 3}&lt;/code>&lt;/li>
+&lt;li>&lt;code>int * char;&lt;/code>&lt;/li>
+&lt;li>&lt;code>int char&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>int char&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-would-you-use-add-two-string">What would you use add two string?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>strcon&lt;/code>&lt;/li>
+&lt;li>&lt;code>strcmp&lt;/code>&lt;/li>
+&lt;li>&lt;code>strcat&lt;/code>&lt;/li>
+&lt;li>&lt;code>stradd&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>strcat&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="which-of-the-following-is-the-correct-way-to-declare-constants">Which of the following is the correct way to declare constants?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>#define a = b&lt;/code>&lt;/li>
+&lt;li>&lt;code>const char a 'b'&lt;/code>&lt;/li>
+&lt;li>&lt;code>const char a = 'b'&lt;/code>&lt;/li>
+&lt;li>&lt;code>const char&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>`const char a = &amp;#39;b&amp;#39;`&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-do-you-declare-a-function">How do you declare a function&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>return-type func-name (argument type);&lt;/code>&lt;/li>
+&lt;li>&lt;code>return-type func-name (argument type){}&lt;/code>&lt;/li>
+&lt;li>&lt;code>return-type (argument type) func-name;&lt;/code>&lt;/li>
+&lt;li>&lt;code>???&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>I am not sure if it is the one with `;` or `{}`. Either first or second&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-not-to-declare-a-2d-array">How &lt;em>NOT&lt;/em> to declare a 2D array?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>int a[3][] = {{1, 2, 3}, {5, 5, 6}, {6, 7, 8}}&lt;/code>&lt;/li>
+&lt;li>&lt;code>int a[][3] = {{1, 2, 3}, {5, 5, 6}, {6, 7, 8}}&lt;/code>&lt;/li>
+&lt;li>&lt;code>int a[1][3]&lt;/code>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>the first answer&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-is-the-output-of-the-following">What is the output of the following?&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="kt">char&lt;/span> &lt;span class="n">str1&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">50&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;span class="kt">char&lt;/span> &lt;span class="n">str1&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">&amp;#34;Hello World&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;%s&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">strcpy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">str1&lt;/span> &lt;span class="p">,&lt;/span>&lt;span class="n">str2&lt;/span>&lt;span class="p">))&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>Hello&lt;/code>&lt;/li>
+&lt;li>&lt;code>Hello World&lt;/code>&lt;/li>
+&lt;li>Nothing&lt;/li>
+&lt;li>Error
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>Not sure, I think &amp;#39;Hello World&amp;#39; &lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-do-you-declare-a-zero-array">How do you declare a zero Array?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>int a[5] = {};&lt;/code>&lt;/li>
+&lt;li>&lt;code>int a[5];&lt;/code>&lt;/li>
+&lt;li>&lt;code>int a = 0, b = 0, c = 0;&lt;/code>&lt;br>
+&lt;code>int array[5] = {a, b, c}&lt;/code>&lt;/li>
+&lt;li>All of the Above
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>All of the Above&lt;/p>
+&lt;/details>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="section-2-output-of-the-program">Section 2: Output of the program&lt;/h2>
+&lt;h3 id="program-1">Program 1:&lt;/h3>
+&lt;p>What is the output of the following code?&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;span class="cp">&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="nf">add&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">b&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">20&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">c&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">c&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">add&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">a&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="n">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;c = %d&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">c&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="nf">add&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;span class="k">return&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">a&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>c = 32&lt;/p>
+&lt;/details>
+&lt;h3 id="program-2">Program 2&lt;/h3>
+&lt;p>What is the output of the following code?&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;span class="cp">&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">13&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">40&lt;/span>&lt;span class="p">};&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">k&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">m&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="n">a&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">k&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">m&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">k&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;span class="n">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;%d %d %d %d&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">k&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">m&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>11, 12, 12, 192929 (any number)&lt;/p>
+&lt;/details>
+&lt;h2 id="section-3-correct-the-errors">Section 3: Correct The Errors&lt;/h2>
+&lt;h3 id="program-1-1">Program 1&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;stdin.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;span class="cp">&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">scanf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;%f&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">n&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="mi">10&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="n">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;%d&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;details>
+&lt;summary>Show Error 1&lt;/summary>
+&lt;p>`stdin` should be `stdio`&lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>Show Error 2&lt;/summary>
+&lt;p>`scanf` should use `%d` instead of `%f` &lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>Show Error 3&lt;/summary>
+&lt;p>in the `for` loop `,` should be `;`&lt;/p>
+&lt;/details>
+&lt;/p>
+&lt;h3 id="program-2-1">Program 2&lt;/h3>
+&lt;p>Correct the program so that it prints &amp;ldquo;This number is odd&amp;rdquo; and &amp;ldquo;This
+number is even&amp;rdquo; for odd and even numbers, respectively.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;span class="cp">&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="n">value&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Please input the number&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="n">scanf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;%d&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">value&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="k">switch&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">value&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;span class="k">case&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;This number is odd&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="k">case&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;This number is even&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;details>
+&lt;summary>Show Error 1&lt;/summary>
+&lt;p>should use `%` instead of `/`&lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>Show Error 2&lt;/summary>
+&lt;p>missing break after case 0&lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>Show Error 3&lt;/summary>
+&lt;p>missing break after case 1, and YES I know there is no need for that break, I wasn&amp;#39;t able to spot any other Error.&lt;/p>
+&lt;/details>
+&lt;/p>
+&lt;h2 id="section-3-code">Section 3: Code&lt;/h2>
+&lt;h3 id="code-for-a-triangle-program">Code for a triangle program&lt;/h3>
+&lt;p>Code a program to validate a triangle, a valid triangle has all of its
+angles = &lt;code>180&lt;/code>.&lt;br>
+Example output:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Please input 3 angles: 90 45 45
+This triangle is valid
+Please input 3 angles: 90 90 90
+This triangle is invalid
+&lt;/code>&lt;/pre>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>Code it yourself.&lt;/p>
+&lt;/details>
+&lt;h3 id="code-to-find-the-sum-of-an-array">Code to find the sum of an array&lt;/h3>
+&lt;p>Use pointers to find the sum of the following array by using a
+function named &lt;code>sum&lt;/code> that does the sum.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="p">};&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/</link><pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/</guid><description>&lt;p>Long ago, on Svalbard, when you were a young witch of forty-three,
 your mother took your unscarred wrists in her hands, and spoke:&lt;/p>
 &lt;blockquote>
 &lt;p>Stadial, born of the sea-wind through the spruce&lt;br>
