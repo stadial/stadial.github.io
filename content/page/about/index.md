@@ -10,5 +10,30 @@ menu:
             icon: user
 ---
 
+# About me
 
-I have yet to fill page, don't stay tuned ;)
+You probably know me as lambda-λ, I am an Electrical Engineering
+student at [KFU](https://kfu.edu.sa/), and a self taught Software
+Engineer.
+
+I code in [Rust](https://www.rust-lang.org/),
+[Haskell](https://haskell.org/) and
+[Typescript](https://www.typescriptlang.org/). Use [Artix
+Linux](https://artixlinux.org/) enjoy RegEx!  
+
+In case you are wondering, no this isn't my main blog, this is just
+for college related site.
+
+# About the site
+This site is something I can look back on say "What a journey". Usage
+by others is a side effect of that.   
+I don't permit anyone to cheat, or use a project of mine. I don't consent
+to anyone to use this site for academic dishonesty or any other
+illegal act.
+
+# Contact
+I am hard to find, on purpose (I don't use social media). You can email
+me on `kfulain.uphrj[at]aleeas.com`, and expect replies within 24hrs.
+
+
+
