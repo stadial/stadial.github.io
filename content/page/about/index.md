@@ -19,7 +19,7 @@ Engineer.
 I code in [Rust](https://www.rust-lang.org/),
 [Haskell](https://haskell.org/) and
 [Typescript](https://www.typescriptlang.org/). Use [Artix
-Linux](https://artixlinux.org/) enjoy RegEx!  
+Linux](https://artixlinux.org/) and enjoy RegEx!  
 
 In case you are wondering, no this isn't my main blog, this is just
 for college related site.
