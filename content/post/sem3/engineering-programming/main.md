@@ -14,6 +14,7 @@ slug: sem3/engineering-programing
 <!--image: helena-hertz-wWZzXlDpMog-unsplash.jpg-->
 categories:
     - Course
+    - CS204
     - 4th Semester
 ---
 
