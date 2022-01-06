@@ -53,7 +53,8 @@ project.
 # Last words
 
 This post was a joke ;)  
-aaaand the intro was by [Aphyr](https://aphyr.com/posts/341-hexing-the-technical-interview), modified.
+aaaand the intro was by [Aphyr](https://aphyr.com/posts/341-hexing-the-technical-interview), modified.  
+I should post the project when the grades gets released.
 
 # Links:
-scroll down
+scroll down.
