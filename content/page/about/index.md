@@ -22,7 +22,7 @@ I code in [Rust](https://www.rust-lang.org/),
 Linux](https://artixlinux.org/) and enjoy RegEx!  
 
 In case you are wondering, no this isn't my main blog, this is just
-for college related site.
+for college related stuff.
 
 # About the site
 This site is something I can look back on say "What a journey". Usage
