@@ -3,10 +3,14 @@ and expect updates in ~24hrs.&lt;/p>
 &lt;h1 id="format">Format:&lt;/h1>
 &lt;h3 id="course-id---course-name">&lt;code>Course-ID&lt;/code> - Course Name&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>General Group&lt;/strong>: &lt;a class="link" href="example.com" >Whatsapp&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Section 1&lt;/strong>: &lt;a class="link" href="example.com" >Whatsapp&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Section 2&lt;/strong>: &lt;a class="link" href="example.com" >Whatsapp&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Section 3&lt;/strong>: &lt;a class="link" href="example.com" >Whatsapp&lt;/a>&lt;/li>
+&lt;li>&lt;strong>General Group&lt;/strong>: &lt;a class="link" href="https://example.com" target="_blank" rel="noopener"
+>Whatsapp&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Section 1&lt;/strong>: &lt;a class="link" href="https://example.com" target="_blank" rel="noopener"
+>Whatsapp&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Section 2&lt;/strong>: &lt;a class="link" href="https://example.com" target="_blank" rel="noopener"
+>Whatsapp&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Section 3&lt;/strong>: &lt;a class="link" href="https://example.com" target="_blank" rel="noopener"
+>Whatsapp&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="english--managment">English &amp;amp; Managment&lt;/h1>
 &lt;h3 id="eng133---english-composition-i">&lt;code>Eng133&lt;/code> - English Composition I&lt;/h3>
@@ -19,6 +23,13 @@ and expect updates in ~24hrs.&lt;/p>
 &lt;h3 id="math145---calculus-ii">&lt;code>Math145&lt;/code> - Calculus II&lt;/h3>
 &lt;h3 id="math240---differential-equations">&lt;code>Math240&lt;/code> - Differential Equations&lt;/h3>
 &lt;h3 id="math240---multivariate-calculus">&lt;code>Math240&lt;/code> - Multivariate Calculus&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>General Group&lt;/strong>: &lt;a class="link" href="" >N/A&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Section 1&lt;/strong>: &lt;a class="link" href="" >N/A&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Section 2&lt;/strong>: &lt;a class="link" href="" >N/A&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Section 3&lt;/strong>: &lt;a class="link" href="https://chat.whatsapp.com/B5fcgrCn9tsKPakswsbHoM" target="_blank" rel="noopener"
+>Whatsapp&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h3 id="math215---math-for-ee">&lt;code>Math215&lt;/code> - Math for EE&lt;/h3>
 &lt;h1 id="general-engineering">General Engineering&lt;/h1>
 &lt;h3 id="engr106---engineering-graphics">&lt;code>Engr106&lt;/code> - Engineering Graphics&lt;/h3>
@@ -389,7 +400,8 @@ tho, LOL. I hope you enjoy coding on paper, cuz that what you will be doing!&lt;
 &lt;p>&lt;em>And NO this isn&amp;rsquo;t about the Professor/Dr. being bad, he was
 really nice, the course itself is trash.&lt;/em>&lt;/p>
 &lt;h1 id="tf-who-do-i-pass">TF! who do I pass?&lt;/h1>
-&lt;p>Listen young man, if you got the time do &lt;a class="link" href="cs50.harvard.edu" >CS50&lt;/a> and
+&lt;p>Listen young man, if you got the time do &lt;a class="link" href="https://cs50.harvard.edu" target="_blank" rel="noopener"
+>CS50&lt;/a> and
 you will likely get that sweet, sweet &lt;code>A+&lt;/code>. Otherwise, if you are
 visting this site during your finals, you have my empathy, scroll down
 for a bit and get the links for the final exam questions, and my final
