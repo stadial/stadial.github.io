@@ -24,28 +24,28 @@ This section was Multiple Choice Questions.
 * `||`
 * `!`
 
-{{< detail "Show Answer" "&" >}}
+{{< detail "Show Answer" "&" />}}
 
 ### Which of the following transfers control to the calling function?
 * `switch`
 * `return`
 * `goto`
 * `???`
-{{< detail "Show Answer" "return" >}}
+{{< detail "Show Answer" "return" />}}
 
 ### Which is best suidted to get strings that contain spaces from the users.
 * `scanf`
 * `printf`
 * `puts`
 * `gets`
-{{< detail "Show Answer" "gets" >}}
+{{< detail "Show Answer" "gets" />}}
 
 ### Performs operation then checks condition
 * `for`
 * `do-while`
 * `while`
 * `???`
-{{< detail "Show Answer" "do-while" >}}
+{{< detail "Show Answer" "do-while" />}}
 
 ### How  many times does the following code repeat? 
 
@@ -56,7 +56,7 @@ for (i=1; i <=10; i=i-1)
 * `Never`
 * `1`
 * `-`
-{{< detail "Show Answer" "Forever" >}}
+{{< detail "Show Answer" "Forever" />}}
 
 ### What is the order of operations in the following code?
 ```c
@@ -67,55 +67,55 @@ z = x + y * z / 1 % 3 -2
 * `*/%+-=`
 * `=+*/%-`
 * `-%/*+=`
-{{< detail "Show Answer" "The second one" >}}
+{{< detail "Show Answer" "The second one" />}}
 
 ### `strcmp` returns what when the string are equal?
 * `1`
 * `0`
 * `-1`
 * `first string`
-{{< detail "Show Answer" "0" >}}
+{{< detail "Show Answer" "0" />}}
 
 ### Which of the following isn't an arithmatic operation?
 * `!=`
 * `/=`
 * `+=`
 * `%=`
-{{< detail "Show Answer" "!=" >}}
+{{< detail "Show Answer" "!=" />}}
 
 ### Which of the following is *NOT* a correct use of pointers?
 * `int arr[i];`
 * `int arr[] = {1, 2 3}`
 * `int * char;`
 * `int char`
-{{< detail "Show Answer" "int char" >}}
+{{< detail "Show Answer" "int char" />}}
 
 ### What would you use add two string?
 * `strcon`
 * `strcmp`
 * `strcat`
 * `stradd`
-{{< detail "Show Answer" "strcat" >}}
+{{< detail "Show Answer" "strcat" />}}
 
 ### Which of the following is the correct way to declare constants?
 * `#define a = b`
 * `const char a 'b'`
 * `const char a = 'b'`
 * `const char`
-{{< detail "Show Answer" "`const char  a = 'b'`" >}}
+{{< detail "Show Answer" "`const char  a = 'b'`" />}}
 
 ### How do you declare a function
 * `return-type func-name (argument type);`
 * `return-type func-name (argument type){}`
 * `return-type (argument type) func-name;`
 * `???`
-{{< detail "Show Answer" "I am not sure if it is the one with `;` or `{}`. Either first or second" >}}
+{{< detail "Show Answer" "I am not sure if it is the one with `;` or `{}`. Either first or second" />}}
 
 ### How *NOT* to declare a 2D array?
 * `int a[3][] = {{1, 2, 3}, {5, 5, 6}, {6, 7, 8}}`
 * `int a[][3] = {{1, 2, 3}, {5, 5, 6}, {6, 7, 8}}`
 * `int a[1][3]`
-{{< detail "Show Answer" "the first answer" >}}
+{{< detail "Show Answer" "the first answer" />}}
 
 ### What is the output of the following?
 ```c
@@ -129,7 +129,7 @@ printf("%s\n", strcpy(str1 ,str2)):
 * `Hello World`
 * Nothing
 * Error
-{{< detail "Show Answer" "Not sure, I think 'Hello World' " >}}
+{{< detail "Show Answer" "Not sure, I think 'Hello World' " />}}
 
 ### How do you declare a zero Array?
 * `int a[5] = {};`
@@ -137,7 +137,7 @@ printf("%s\n", strcpy(str1 ,str2)):
 * `int a = 0, b = 0, c = 0;`  
 `int array[5] = {a, b, c}`
 * All of the Above
-{{< detail "Show Answer" "All of the Above" >}}
+{{< detail "Show Answer" "All of the Above" />}}
 
 ## Section 2: Output of the program
 ### Program 1:
@@ -158,7 +158,7 @@ int add(int a, int b){
 }
 ```
 
-{{< detail "Show Answer" "c = 32" >}}
+{{< detail "Show Answer" "c = 32" />}}
 
 ### Program 2
 What is the output of the following code?
@@ -177,7 +177,7 @@ int main(){
 	printf("%d %d %d %d", i, j, k, m);
 }
 ```
-{{< detail "Show Answer" "11, 12, 12, 192929 (any number)" >}}
+{{< detail "Show Answer" "11, 12, 12, 192929 (any number)" />}}
 
 ## Section 3: Correct The Errors
 ### Program 1
@@ -194,9 +194,9 @@ int main(){
 }
 ```
 	
-{{< detail "Show Error 1" "`stdin` should be `stdio`" >}}
-{{< detail "Show Error 2" "`scanf` should use `%d` instead of `%f` " >}}
-{{< detail "Show Error 3" "in the `for` loop `,` should be `;`" >}}
+{{< detail "Show Error 1" "`stdin` should be `stdio`" />}}
+{{< detail "Show Error 2" "`scanf` should use `%d` instead of `%f` " />}}
+{{< detail "Show Error 3" "in the `for` loop `,` should be `;`" />}}
 ### Program 2
 Correct the program so that it prints "This number is odd" and "This
 number is even" for odd and even numbers, respectively.
@@ -217,9 +217,9 @@ int main(){
 }
 ```
 
-{{< detail "Show Error 1" "should use `%` instead of `/`" >}}
-{{< detail "Show Error 2" "missing break after case 0" >}}
-{{< detail "Show Error 3" "missing break after case 1, and YES I know there is no need  for that break, I wasn't able to spot any other Error." >}}
+{{< detail "Show Error 1" "should use `%` instead of `/`" />}}
+{{< detail "Show Error 2" "missing break after case 0" />}}
+{{< detail "Show Error 3" "missing break after case 1, and YES I know there is no need  for that break, I wasn't able to spot any other Error." />}}
 
 ## Section 3: Code 
 ### Code for a triangle program
@@ -235,7 +235,7 @@ Please input 3 angles: 90 90 90
 This triangle is invalid
 ```
 
-{{< detail "Show Answer" "Code it yourself." >}}
+{{< detail "Show Answer" "Code it yourself." />}}
 
 
 
