@@ -1,7 +1,12 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
 {{ $summary:= .Get 0 }} 
-{{ $content := .Get 1 }}
 
 <details>
-    <summary>{{$summary}}</summary>
-    <p>{{$content}}</p>
+    <summary>{{$summary | markdownify }}</summary>
+
+	{{ if (.Get 1) }}
+	    <p>{{ .Get 1 | markdownify }}</p>
+	{{else if .Inner }}
+	    <p>{{ .Inner | markdownify }}</p>
+	{{end}}
 </details>
