@@ -80,7 +80,34 @@ and expect updates in ~24hrs.&lt;/p>
 &lt;h3 id="senior-design-ii">Senior Design II&lt;/h3>
 &lt;h1 id="mechanical-engineering">Mechanical Engineering&lt;/h1>
 &lt;h1 id="chemical-engineering">Chemical Engineering&lt;/h1>
-&lt;h1 id="civil-engineering">Civil Engineering&lt;/h1></description></item><item><title>Final Exam: Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</guid><description>&lt;h1 id="exam-overview">Exam overview&lt;/h1>
+&lt;h1 id="civil-engineering">Civil Engineering&lt;/h1></description></item><item><title>Digital Logic Design - EE232</title><link>https://stadial.github.io/p/sem3/digital-logic/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/digital-logic/</guid><description>&lt;p>In the formless days, long before the rise of internet, all spells
+were woven of pure mistery, all circuits were analog, and death
+was common. Many engineers were disfigured by the insane amount of
+math, found crumpled at the center of a circle of twisted, room sized
+analog computers, and vacuum-tubed op-amps which burned unceasing in
+the pooling of madness; some disappeared entirely, or wandered about
+complexity, sun never touching their skin, breath never warming air.&lt;/p>
+&lt;p>Digial Logic is a blessing, if only our ancestors knew, many suicides
+might not have happened.&lt;/p>
+&lt;h1 id="ignore-the-rumors">Ignore the rumors&lt;/h1>
+&lt;p>Word has it that &lt;code>EE232&lt;/code> -Digital Logic Design- is what drives
+students insane. This may or may not be true, but we(/I) know that it was
+a fun course. It is true that our Professor arrived ~1 month late, and
+we speed ran the course, but the course is good. I would say it was a
+shame that we skipped &lt;code>verilog&lt;/code> tho :(&lt;/p>
+&lt;h1 id="idc-just-give-me-resources-and-how-to-pass">IDC! Just give me Resources and how to Pass!&lt;/h1>
+&lt;p>Yo calm down, are you by any chance a freshman? If so I think taking
+&lt;a class="link" href="https://www.nand2tetris.org/" target="_blank" rel="noopener"
+>NAND2Tetris&lt;/a> before hand will improve
+the course experience, seeing the complexity of a computer internals
+being explained is wonderful.&lt;/p>
+&lt;p>Breathe deep, and allow your spirit to come unmoored from
+analog crap, ascending to the plane of digtal world.&lt;/p>
+&lt;h1 id="i-got-no-time-i-just-want-goodol-exams">I Got no time! I just want good&amp;rsquo;ol Exams!&lt;/h1>
+&lt;p>Scroll down fren, you should find quizes, MidTerm and Final Exam!&lt;/p>
+&lt;h1 id="last-word">Last Word&lt;/h1>
+&lt;p>intro was by &lt;a class="link" href="https://aphyr.com/posts/342-typing-the-technical-interview" target="_blank" rel="noopener"
+>Aphyr&lt;/a>, modified.&lt;/p></description></item><item><title>Final Exam: Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</guid><description>&lt;h1 id="exam-overview">Exam overview&lt;/h1>
 &lt;p>Reread my other post &lt;a class="link" href="../" >CS204&lt;/a>, and keep on prayin.&lt;br>
 Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DISCLAIMER&lt;/a>!&lt;/p>
 &lt;h1 id="ze-exam">Ze Exam&lt;/h1>
@@ -216,7 +243,7 @@ Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DI
 &lt;li>&lt;code>const char&lt;/code>
 &lt;details>
 &lt;summary>Show Answer&lt;/summary>
-&lt;p>`const char a = &amp;#39;b&amp;#39;`&lt;/p>
+&lt;p>&lt;code>const char a = 'b'&lt;/code>&lt;/p>
 &lt;/details>
 &lt;/li>
 &lt;/ul>
@@ -228,7 +255,7 @@ Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DI
 &lt;li>&lt;code>???&lt;/code>
 &lt;details>
 &lt;summary>Show Answer&lt;/summary>
-&lt;p>I am not sure if it is the one with `;` or `{}`. Either first or second&lt;/p>
+&lt;p>I am not sure if it is the one with &lt;code>;&lt;/code> or &lt;code>{}&lt;/code>. Either first or second&lt;/p>
 &lt;/details>
 &lt;/li>
 &lt;/ul>
@@ -254,7 +281,7 @@ Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DI
 &lt;li>Error
 &lt;details>
 &lt;summary>Show Answer&lt;/summary>
-&lt;p>Not sure, I think &amp;#39;Hello World&amp;#39; &lt;/p>
+&lt;p>Not sure, I think &amp;lsquo;Hello World&amp;rsquo;&lt;/p>
 &lt;/details>
 &lt;/li>
 &lt;/ul>
@@ -322,15 +349,15 @@ Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DI
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>
 &lt;details>
 &lt;summary>Show Error 1&lt;/summary>
-&lt;p>`stdin` should be `stdio`&lt;/p>
+&lt;p>&lt;code>stdin&lt;/code> should be &lt;code>stdio&lt;/code>&lt;/p>
 &lt;/details>
 &lt;details>
 &lt;summary>Show Error 2&lt;/summary>
-&lt;p>`scanf` should use `%d` instead of `%f` &lt;/p>
+&lt;p>&lt;code>scanf&lt;/code> should use &lt;code>%d&lt;/code> instead of &lt;code>%f&lt;/code>&lt;/p>
 &lt;/details>
 &lt;details>
 &lt;summary>Show Error 3&lt;/summary>
-&lt;p>in the `for` loop `,` should be `;`&lt;/p>
+&lt;p>in the &lt;code>for&lt;/code> loop &lt;code>,&lt;/code> should be &lt;code>;&lt;/code>&lt;/p>
 &lt;/details>
 &lt;/p>
 &lt;h3 id="program-2-1">Program 2&lt;/h3>
@@ -351,7 +378,7 @@ number is even&amp;rdquo; for odd and even numbers, respectively.&lt;/p>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>
 &lt;details>
 &lt;summary>Show Error 1&lt;/summary>
-&lt;p>should use `%` instead of `/`&lt;/p>
+&lt;p>should use &lt;code>%&lt;/code> instead of &lt;code>/&lt;/code>&lt;/p>
 &lt;/details>
 &lt;details>
 &lt;summary>Show Error 2&lt;/summary>
@@ -359,7 +386,7 @@ number is even&amp;rdquo; for odd and even numbers, respectively.&lt;/p>
 &lt;/details>
 &lt;details>
 &lt;summary>Show Error 3&lt;/summary>
-&lt;p>missing break after case 1, and YES I know there is no need for that break, I wasn&amp;#39;t able to spot any other Error.&lt;/p>
+&lt;p>missing break after case 1, and YES I know there is no need for that break, I wasn&amp;rsquo;t able to spot any other Error.&lt;/p>
 &lt;/details>
 &lt;/p>
 &lt;h2 id="section-3-code">Section 3: Code&lt;/h2>
