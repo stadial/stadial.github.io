@@ -107,7 +107,175 @@ analog crap, ascending to the plane of digtal world.&lt;/p>
 &lt;p>Scroll down fren, you should find quizes, MidTerm and Final Exam!&lt;/p>
 &lt;h1 id="last-word">Last Word&lt;/h1>
 &lt;p>intro was by &lt;a class="link" href="https://aphyr.com/posts/342-typing-the-technical-interview" target="_blank" rel="noopener"
->Aphyr&lt;/a>, modified.&lt;/p></description></item><item><title>Final Exam: Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</guid><description>&lt;h1 id="exam-overview">Exam overview&lt;/h1>
+>Aphyr&lt;/a>, modified.&lt;/p></description></item><item><title>Final Exam: Digital Logic Design - EE232</title><link>https://stadial.github.io/p/sem3/digital-logic/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/digital-logic/final-exam/</guid><description>&lt;p>This is going to be wild!&lt;/p>
+&lt;h1 id="question-1">Question 1:&lt;/h1>
+&lt;h2 id="part-a">Part A:&lt;/h2>
+&lt;p>Design a combinational circuit that counts the Numbers of 1&amp;rsquo;s in 7-bit
+($I_0$ $I_1$, &amp;hellip; $I_6$.)
+input and has 3-bit output. ($O_0$, $O_1$, $O_3$).
+And write the input equations.&lt;/p>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>TODO!&lt;/p>
+&lt;/details>
+&lt;h2 id="part-b">Part B:&lt;/h2>
+&lt;p>Design a 5-bit comparator that takes 2&amp;rsquo;s compelemnt. you can use
+comparators, adders, decoders, etc.&lt;/p>
+&lt;h1 id="question-2">Question 2:&lt;/h1>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 137;
+flex-basis: 330px"
+>
+&lt;a href="https://stadial.github.io/p/sem3/digital-logic/final-exam/final-simple-TFF.png" data-size="220x160">
+&lt;img src="https://stadial.github.io/p/sem3/digital-logic/final-exam/final-simple-TFF.png"
+width="220"
+height="160"
+srcset="https://stadial.github.io/p/sem3/digital-logic/final-exam/final-simple-TFF_hudcc76230bc2ecc29761317bf41ffd98d_2837_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem3/digital-logic/final-exam/final-simple-TFF_hudcc76230bc2ecc29761317bf41ffd98d_2837_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="T-Flip-Flop">
+&lt;/a>
+&lt;figcaption>T-Flip-Flop&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="part-a-1">Part A:&lt;/h2>
+&lt;p>What is the function of this circuit?&lt;/p>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>Toggles every negative edge as long as &lt;code>X&lt;/code> is 1&lt;/p>
+&lt;/details>
+&lt;h2 id="part-b-1">Part B:&lt;/h2>
+&lt;p>Reduce the state table (from the book)
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 179;
+flex-basis: 430px"
+>
+&lt;a href="https://stadial.github.io/p/sem3/digital-logic/final-exam/state-table.png" data-size="409x228">
+&lt;img src="https://stadial.github.io/p/sem3/digital-logic/final-exam/state-table.png"
+width="409"
+height="228"
+srcset="https://stadial.github.io/p/sem3/digital-logic/final-exam/state-table_hu5825489b248add99bd3112f410336521_13984_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem3/digital-logic/final-exam/state-table_hu5825489b248add99bd3112f410336521_13984_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="State Table">
+&lt;/a>
+&lt;figcaption>State Table&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>&lt;img src="reduced-state-table.png" alt="State Table">&lt;/p>
+&lt;/details>
+&lt;h2 id="part-c">Part C:&lt;/h2>
+&lt;p>Draw the reduced state diagram of the table
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>&lt;img src="reduced-state-table-diagram.png" alt="State Table">&lt;/p>
+&lt;/details>
+&lt;/p>
+&lt;h2 id="part-d">Part D:&lt;/h2>
+&lt;p>Implement it using T-Flip Flops&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h1 id="question-3">Question 3:&lt;/h1>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="part--a">Part A:&lt;/h2>
+&lt;p>Given the current state is &lt;code>100&lt;/code>. What is thestate for the next 7 cycles?&lt;/p>
+&lt;h2 id="part--b">Part B:&lt;/h2>
+&lt;p>Convert the following &lt;code>D&lt;/code>-FF serial adder to a &lt;code>T&lt;/code>-FF:&lt;/p>
+&lt;h2 id="part--c">Part C:&lt;/h2>
+&lt;p>Given that all the registers are set to &lt;code>1011&lt;/code>, what is the value of
+register &lt;code>A&lt;/code> after: &lt;code>4&lt;/code>, &lt;code>8&lt;/code> and &lt;code>12&lt;/code> cycles.&lt;/p>
+&lt;h2 id="part-d-1">Part D:&lt;/h2>
+&lt;p>Given the following truth table,&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">x&lt;/th>
+&lt;th style="text-align:center">y&lt;/th>
+&lt;th style="text-align:center">z&lt;/th>
+&lt;th style="text-align:center">A&lt;/th>
+&lt;th style="text-align:center">B&lt;/th>
+&lt;th style="text-align:center">C&lt;/th>
+&lt;th style="text-align:center">D&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;!-- raw HTML omitted -->
+&lt;p>implement it using the following &lt;code>PAL&lt;/code>.&lt;/p></description></item><item><title>Final Exam: Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</guid><description>&lt;h1 id="exam-overview">Exam overview&lt;/h1>
 &lt;p>Reread my other post &lt;a class="link" href="../" >CS204&lt;/a>, and keep on prayin.&lt;br>
 Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DISCLAIMER&lt;/a>!&lt;/p>
 &lt;h1 id="ze-exam">Ze Exam&lt;/h1>
