@@ -116,7 +116,12 @@ input and has 3-bit output. ($O_0$, $O_1$, $O_3$).
 And write the input equations.&lt;/p>
 &lt;details>
 &lt;summary>Show Answer&lt;/summary>
-&lt;p>TODO!&lt;/p>
+&lt;p>&lt;p>Execuse the messy wiring!&lt;br>
+&lt;img src="7bit-adder.png" alt="7bit Adder">&lt;/p>
+&lt;p>$$O_0 = I_0 \oplus I_1 \oplus I_2 &amp;hellip; \oplus I_7 $$
+$$O_1 = $$ left as an exercise to the reader
+$$O_3 = $$ left as an exercise to the reader&lt;/p>
+&lt;/p>
 &lt;/details>
 &lt;h2 id="part-b">Part B:&lt;/h2>
 &lt;p>Design a 5-bit comparator that takes 2&amp;rsquo;s compelemnt. you can use
@@ -175,16 +180,96 @@ alt="State Table">
 &lt;/p>
 &lt;h2 id="part-d">Part D:&lt;/h2>
 &lt;p>Implement it using T-Flip Flops&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>This is left as an exercise to the reader.&lt;/p>
+&lt;/details>
 &lt;h1 id="question-3">Question 3:&lt;/h1>
-&lt;!-- raw HTML omitted -->
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 200;
+flex-basis: 480px"
+>
+&lt;a href="https://stadial.github.io/p/sem3/digital-logic/final-exam/DFF-series.png" data-size="440x220">
+&lt;img src="https://stadial.github.io/p/sem3/digital-logic/final-exam/DFF-series.png"
+width="440"
+height="220"
+srcset="https://stadial.github.io/p/sem3/digital-logic/final-exam/DFF-series_hue3e2d4f4ec48b0eab70cb0cfdbf34895_3649_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem3/digital-logic/final-exam/DFF-series_hue3e2d4f4ec48b0eab70cb0cfdbf34895_3649_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="D Flip Flops">
+&lt;/a>
+&lt;figcaption>D Flip Flops&lt;/figcaption>
+&lt;/figure>
+(Left is A, Middle is B, Right is C)&lt;/p>
 &lt;h2 id="part--a">Part A:&lt;/h2>
-&lt;p>Given the current state is &lt;code>100&lt;/code>. What is thestate for the next 7 cycles?&lt;/p>
+&lt;p>Given the current state is &lt;code>ABC = 100&lt;/code>. What is the state for the next 7 cycles?&lt;/p>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>$$ A(t+1) = B \oplus C $$
+$$ B(t+1) = A $$
+$$ C(t+1) = C $$
+$$ ABC(0) = 100 $$
+$$ ABC(1) = 010 $$
+$$ ABC(2) = 101 $$
+$$ ABC(3) = 110 $$
+$$ ABC(4) = 111 $$
+$$ ABC(5) = 011 $$
+$$ ABC(6) = 001 $$
+$$ ABC(7) = 100 $$&lt;/p>
+&lt;/details>
 &lt;h2 id="part--b">Part B:&lt;/h2>
-&lt;p>Convert the following &lt;code>D&lt;/code>-FF serial adder to a &lt;code>T&lt;/code>-FF:&lt;/p>
+&lt;p>Convert the following &lt;code>D&lt;/code>-FF serial adder to a &lt;code>T&lt;/code>-FF:
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 122;
+flex-basis: 294px"
+>
+&lt;a href="https://stadial.github.io/p/sem3/digital-logic/final-exam/serial-adder.png" data-size="510x415">
+&lt;img src="https://stadial.github.io/p/sem3/digital-logic/final-exam/serial-adder.png"
+width="510"
+height="415"
+srcset="https://stadial.github.io/p/sem3/digital-logic/final-exam/serial-adder_hue46238f9349038fd20247a761abf46d6_21802_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem3/digital-logic/final-exam/serial-adder_hue46238f9349038fd20247a761abf46d6_21802_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="D Flip Flops">
+&lt;/a>
+&lt;figcaption>D Flip Flops&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>Easy Solution: Convert the T-FlipFlop back to a D-FlipFlop! (i.e,
+implement a D-FlipFlop with a T-Flipflop)&lt;br>
+Standard Solution: do the truth table, K-maps, equations, etc.&lt;br>
+This is left as an exercise to the reader.&lt;/p>
+&lt;/details>
 &lt;h2 id="part--c">Part C:&lt;/h2>
 &lt;p>Given that all the registers are set to &lt;code>1011&lt;/code>, what is the value of
-register &lt;code>A&lt;/code> after: &lt;code>4&lt;/code>, &lt;code>8&lt;/code> and &lt;code>12&lt;/code> cycles.&lt;/p>
+register &lt;code>A&lt;/code> after: &lt;code>4&lt;/code>, &lt;code>8&lt;/code>, &lt;code>12&lt;/code> and &lt;code>16&lt;/code> cycles. Initially, the Flip was
+set to 0, (or Reset).&lt;/p>
+&lt;p>Also, Register B is always filled with &lt;code>1011&lt;/code> every &lt;code>4&lt;/code> cycles! I am just too lazy to
+draw that :)&lt;/p>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>&lt;p>We can see that after &lt;code>4&lt;/code> cycles, $A(t+4)=A + B + C $&lt;br>
+We can also see the $C=$ carry of A&amp;rsquo;s sum&lt;br>
+&lt;em>Initially&lt;/em>
+$$ A (0) = 0 $$
+$$ C (0) = 0 $$
+&lt;em>After 4 cycles:&lt;/em>
+$$ A (4) = 1011 + 1011 + 0 = 0110 $$
+$$ C (4) = 1$$&lt;/p>
+&lt;p>&lt;em>After 8 cycles:&lt;/em>
+$$ A (8) = 0110 + 1011 + 1 = 0010 $$
+$$ C (8) = 1$$&lt;/p>
+&lt;p>&lt;em>After 12 cycles:&lt;/em>
+$$ A (12) = 0010 + 1011 + 1 = 0010 $$
+$$ C (12) = 1$$&lt;/p>
+&lt;p>&lt;em>After 16 cycles:&lt;/em>
+$$ A (16) = 0110 + 1011 + 1 = 1110 $$
+$$ C (16) = 0$$&lt;/p>
+&lt;/p>
+&lt;/details>
 &lt;h2 id="part-d-1">Part D:&lt;/h2>
 &lt;p>Given the following truth table,&lt;/p>
 &lt;table>
@@ -204,78 +289,119 @@ register &lt;code>A&lt;/code> after: &lt;code>4&lt;/code>, &lt;code>8&lt;/code> 
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">0&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
 &lt;td style="text-align:center">1&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;!-- raw HTML omitted -->
-&lt;p>implement it using the following &lt;code>PAL&lt;/code>.&lt;/p></description></item><item><title>Final Exam: Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</guid><description>&lt;h1 id="exam-overview">Exam overview&lt;/h1>
+&lt;p>implement it using the following &lt;code>PAL&lt;/code> after filling the table.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 77;
+flex-basis: 187px"
+>
+&lt;a href="https://stadial.github.io/p/sem3/digital-logic/final-exam/PAL.png" data-size="689x884">
+&lt;img src="https://stadial.github.io/p/sem3/digital-logic/final-exam/PAL.png"
+width="689"
+height="884"
+srcset="https://stadial.github.io/p/sem3/digital-logic/final-exam/PAL_huf89bf5dba64b777574d65846005e21e4_40916_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem3/digital-logic/final-exam/PAL_huf89bf5dba64b777574d65846005e21e4_40916_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="PAL">
+&lt;/a>
+&lt;figcaption>PAL&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;details>
+&lt;summary>Show Equations&lt;/summary>
+&lt;p>Do the K-maps, then you get:&lt;br>
+$$ A = \bar{z} + x \oplus y $$
+$$ B = \overline{x \oplus y \oplus z} $$
+$$ C = x \oplus z$$
+$$ D = z + x \oplus y $$&lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>Show Simplified Equations&lt;/summary>
+&lt;p>&lt;p>$B$ can be simplifed as
+$$ B = \overline{y \oplus C } $$
+Which can be furthur simplified as
+$$ B = \bar{y} \oplus C $$&lt;/p>
+&lt;p>Also if you are wondering how tf $\oplus$ and $\bar{\oplus}$ are
+implemented using AND and OR gates, refer to the book.&lt;/p>
+&lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>Show Table&lt;/summary>
+&lt;p>This is left as exercise to the reader.&lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>Show Connections&lt;/summary>
+&lt;p>&lt;img src="PAL-solved.png" alt="PAL">&lt;/p>
+&lt;/details></description></item><item><title>Final Exam: Engineering Programming - CS204</title><link>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem3/engineering-programing/final-exam/</guid><description>&lt;h1 id="exam-overview">Exam overview&lt;/h1>
 &lt;p>Reread my other post &lt;a class="link" href="../" >CS204&lt;/a>, and keep on prayin.&lt;br>
 Also read the &lt;a class="link" href="https://stadial.github.io/disclaimer" >DISCLAIMER&lt;/a>!&lt;/p>
 &lt;h1 id="ze-exam">Ze Exam&lt;/h1>

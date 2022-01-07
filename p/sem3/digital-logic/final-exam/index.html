@@ -46,7 +46,7 @@ Stay strong fren, you are almost done!
 </div>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>
-1 minute read
+4 minute read
 </time>
 </div>
 </footer>
@@ -62,7 +62,12 @@ input and has 3-bit output. ($O_0$, $O_1$, $O_3$).
 And write the input equations.</p>
 <details>
 <summary>Show Answer</summary>
-<p>TODO!</p>
+<p><p>Execuse the messy wiring!<br>
+<img src=7bit-adder.png alt="7bit Adder"></p>
+<p>$$O_0 = I_0 \oplus I_1 \oplus I_2 &mldr; \oplus I_7 $$
+$$O_1 = $$ left as an exercise to the reader
+$$O_3 = $$ left as an exercise to the reader</p>
+</p>
 </details>
 <h2 id=part-b>Part B:</h2>
 <p>Design a 5-bit comparator that takes 2&rsquo;s compelemnt. you can use
@@ -101,14 +106,76 @@ comparators, adders, decoders, etc.</p>
 </p>
 <h2 id=part-d>Part D:</h2>
 <p>Implement it using T-Flip Flops</p>
+<details>
+<summary>Show Answer</summary>
+<p>This is left as an exercise to the reader.</p>
+</details>
 <h1 id=question-3>Question 3:</h1>
+<p><figure class=gallery-image style=flex-grow:200;flex-basis:480px>
+<a href=/p/sem3/digital-logic/final-exam/DFF-series.png data-size=440x220>
+<img src=/p/sem3/digital-logic/final-exam/DFF-series.png width=440 height=220 srcset="/p/sem3/digital-logic/final-exam/DFF-series_hue3e2d4f4ec48b0eab70cb0cfdbf34895_3649_480x0_resize_box_3.png 480w, /p/sem3/digital-logic/final-exam/DFF-series_hue3e2d4f4ec48b0eab70cb0cfdbf34895_3649_1024x0_resize_box_3.png 1024w" loading=lazy alt="D Flip Flops">
+</a>
+<figcaption>D Flip Flops</figcaption>
+</figure>
+(Left is A, Middle is B, Right is C)</p>
 <h2 id=part--a>Part A:</h2>
-<p>Given the current state is <code>100</code>. What is thestate for the next 7 cycles?</p>
+<p>Given the current state is <code>ABC = 100</code>. What is the state for the next 7 cycles?</p>
+<details>
+<summary>Show Answer</summary>
+<p>$$ A(t+1) = B \oplus C $$
+$$ B(t+1) = A $$
+$$ C(t+1) = C $$
+$$ ABC(0) = 100 $$
+$$ ABC(1) = 010 $$
+$$ ABC(2) = 101 $$
+$$ ABC(3) = 110 $$
+$$ ABC(4) = 111 $$
+$$ ABC(5) = 011 $$
+$$ ABC(6) = 001 $$
+$$ ABC(7) = 100 $$</p>
+</details>
 <h2 id=part--b>Part B:</h2>
-<p>Convert the following <code>D</code>-FF serial adder to a <code>T</code>-FF:</p>
+<p>Convert the following <code>D</code>-FF serial adder to a <code>T</code>-FF:
+<figure class=gallery-image style=flex-grow:122;flex-basis:294px>
+<a href=/p/sem3/digital-logic/final-exam/serial-adder.png data-size=510x415>
+<img src=/p/sem3/digital-logic/final-exam/serial-adder.png width=510 height=415 srcset="/p/sem3/digital-logic/final-exam/serial-adder_hue46238f9349038fd20247a761abf46d6_21802_480x0_resize_box_3.png 480w, /p/sem3/digital-logic/final-exam/serial-adder_hue46238f9349038fd20247a761abf46d6_21802_1024x0_resize_box_3.png 1024w" loading=lazy alt="D Flip Flops">
+</a>
+<figcaption>D Flip Flops</figcaption>
+</figure></p>
+<details>
+<summary>Show Answer</summary>
+<p>Easy Solution: Convert the T-FlipFlop back to a D-FlipFlop! (i.e,
+implement a D-FlipFlop with a T-Flipflop)<br>
+Standard Solution: do the truth table, K-maps, equations, etc.<br>
+This is left as an exercise to the reader.</p>
+</details>
 <h2 id=part--c>Part C:</h2>
 <p>Given that all the registers are set to <code>1011</code>, what is the value of
-register <code>A</code> after: <code>4</code>, <code>8</code> and <code>12</code> cycles.</p>
+register <code>A</code> after: <code>4</code>, <code>8</code>, <code>12</code> and <code>16</code> cycles. Initially, the Flip was
+set to 0, (or Reset).</p>
+<p>Also, Register B is always filled with <code>1011</code> every <code>4</code> cycles! I am just too lazy to
+draw that :)</p>
+<details>
+<summary>Show Answer</summary>
+<p><p>We can see that after <code>4</code> cycles, $A(t+4)=A + B + C $<br>
+We can also see the $C=$ carry of A&rsquo;s sum<br>
+<em>Initially</em>
+$$ A (0) = 0 $$
+$$ C (0) = 0 $$
+<em>After 4 cycles:</em>
+$$ A (4) = 1011 + 1011 + 0 = 0110 $$
+$$ C (4) = 1$$</p>
+<p><em>After 8 cycles:</em>
+$$ A (8) = 0110 + 1011 + 1 = 0010 $$
+$$ C (8) = 1$$</p>
+<p><em>After 12 cycles:</em>
+$$ A (12) = 0010 + 1011 + 1 = 0010 $$
+$$ C (12) = 1$$</p>
+<p><em>After 16 cycles:</em>
+$$ A (16) = 0110 + 1011 + 1 = 1110 $$
+$$ C (16) = 0$$</p>
+</p>
+</details>
 <h2 id=part-d-1>Part D:</h2>
 <p>Given the following truth table,</p>
 <table>
@@ -128,77 +195,109 @@ register <code>A</code> after: <code>4</code>, <code>8</code> and <code>12</code
 <td style=text-align:center>0</td>
 <td style=text-align:center>0</td>
 <td style=text-align:center>0</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>0</td>
 </tr>
 <tr>
 <td style=text-align:center>0</td>
 <td style=text-align:center>0</td>
 <td style=text-align:center>1</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
 </tr>
 <tr>
 <td style=text-align:center>0</td>
 <td style=text-align:center>1</td>
 <td style=text-align:center>0</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>1</td>
 </tr>
 <tr>
 <td style=text-align:center>0</td>
 <td style=text-align:center>1</td>
 <td style=text-align:center>1</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
 </tr>
 <tr>
 <td style=text-align:center>1</td>
 <td style=text-align:center>0</td>
 <td style=text-align:center>0</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
 </tr>
 <tr>
 <td style=text-align:center>1</td>
 <td style=text-align:center>0</td>
 <td style=text-align:center>1</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>1</td>
 </tr>
 <tr>
 <td style=text-align:center>1</td>
 <td style=text-align:center>1</td>
 <td style=text-align:center>0</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>1</td>
+<td style=text-align:center>0</td>
 </tr>
 <tr>
 <td style=text-align:center>1</td>
 <td style=text-align:center>1</td>
 <td style=text-align:center>1</td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
-<td style=text-align:center></td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>0</td>
+<td style=text-align:center>1</td>
 </tr>
 </tbody>
 </table>
-<p>implement it using the following <code>PAL</code>.</p>
+<p>implement it using the following <code>PAL</code> after filling the table.</p>
+<p><figure class=gallery-image style=flex-grow:77;flex-basis:187px>
+<a href=/p/sem3/digital-logic/final-exam/PAL.png data-size=689x884>
+<img src=/p/sem3/digital-logic/final-exam/PAL.png width=689 height=884 srcset="/p/sem3/digital-logic/final-exam/PAL_huf89bf5dba64b777574d65846005e21e4_40916_480x0_resize_box_3.png 480w, /p/sem3/digital-logic/final-exam/PAL_huf89bf5dba64b777574d65846005e21e4_40916_1024x0_resize_box_3.png 1024w" loading=lazy alt=PAL>
+</a>
+<figcaption>PAL</figcaption>
+</figure></p>
+<details>
+<summary>Show Equations</summary>
+<p>Do the K-maps, then you get:<br>
+$$ A = \bar{z} + x \oplus y $$
+$$ B = \overline{x \oplus y \oplus z} $$
+$$ C = x \oplus z$$
+$$ D = z + x \oplus y $$</p>
+</details>
+<details>
+<summary>Show Simplified Equations</summary>
+<p><p>$B$ can be simplifed as
+$$ B = \overline{y \oplus C } $$
+Which can be furthur simplified as
+$$ B = \bar{y} \oplus C $$</p>
+<p>Also if you are wondering how tf $\oplus$ and $\bar{\oplus}$ are
+implemented using AND and OR gates, refer to the book.</p>
+</p>
+</details>
+<details>
+<summary>Show Table</summary>
+<p>This is left as exercise to the reader.</p>
+</details>
+<details>
+<summary>Show Connections</summary>
+<p><img src=PAL-solved.png alt=PAL></p>
+</details>
 </section>
 <footer class=article-footer>
 <section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
