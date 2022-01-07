@@ -11,10 +11,10 @@ To add links, please send an email to `kfulain.uphrj[at]aleeas.com`
 and expect updates in ~24hrs.
 # Format:
 ### `Course-ID` - Course Name
-* **General Group**: [Whatsapp](example.com)
-* **Section 1**: [Whatsapp](example.com)
-* **Section 2**: [Whatsapp](example.com)
-* **Section 3**: [Whatsapp](example.com)
+* **General Group**: [Whatsapp](https://example.com)
+* **Section 1**: [Whatsapp](https://example.com)
+* **Section 2**: [Whatsapp](https://example.com)
+* **Section 3**: [Whatsapp](https://example.com)
 
 # English & Managment
 ### `Eng133` - English Composition I
@@ -28,6 +28,11 @@ and expect updates in ~24hrs.
 ### `Math145` - Calculus II
 ### `Math240` - Differential Equations
 ### `Math240` - Multivariate Calculus
+* **General Group**: [N/A]()
+* **Section 1**: [N/A]()
+* **Section 2**: [N/A]()
+* **Section 3**: [Whatsapp](https://chat.whatsapp.com/B5fcgrCn9tsKPakswsbHoM)
+
 ### `Math215` - Math for EE
 
 # General Engineering

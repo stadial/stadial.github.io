@@ -45,7 +45,7 @@ really nice, the course itself is trash.*
 
 # TF! who do I pass?
 
-Listen young man, if you got the time do [CS50](cs50.harvard.edu) and
+Listen young man, if you got the time do [CS50](https://cs50.harvard.edu) and
 you will likely get that sweet, sweet `A+`. Otherwise, if you are
 visting this site during your finals, you have my empathy, scroll down
 for a bit and get the links for the final exam questions, and my final
