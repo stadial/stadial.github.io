@@ -150,7 +150,7 @@ int add(int a, int b);
 int main(){
 	int a = 10, b = 20, c;
 	c = add(a, b);
-	printf("c = %d\n", c);
+	printf("c = %d\n", ++c);
 }
 
 int add(int a, int b){
