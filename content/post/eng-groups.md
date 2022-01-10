@@ -8,7 +8,9 @@ categories:
     - Groups
 ---
 To add links, please send an email to `kfulain.uphrj[at]aleeas.com`
-and expect updates in ~24hrs.
+and expect updates in ~24hrs.  
+Or join [The Whatsapp Group](https://chat.whatsapp.com/JvEwxtYD60OKuxQEW78xMm)!
+
 # Format:
 ### `Course-ID` - Course Name
 * **General Group**: [Whatsapp](https://example.com)
