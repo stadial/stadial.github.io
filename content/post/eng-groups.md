@@ -27,6 +27,10 @@ and expect updates in ~24hrs.
 ### `Math144` - Calculus I
 ### `Math145` - Calculus II
 ### `Math240` - Differential Equations
+* **General Group**: [N/A]()
+* **Section 1**: [N/A]()
+* **Section 2**: [N/A]()
+* **Section 3**: [Whatsapp](https://chat.whatsapp.com/JsoERUZ4APrHWIzduAKkcU)
 ### `Math240` - Multivariate Calculus
 * **General Group**: [N/A]()
 * **Section 1**: [N/A]()
