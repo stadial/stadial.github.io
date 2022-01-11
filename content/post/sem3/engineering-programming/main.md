@@ -30,18 +30,18 @@ your mother took your unscarred wrists in her hands, and spoke:
 But `C++` has coded you, word has spread about CS204. You make a mental note to avoid
 this course, but reassure the course is waiting for you.
 
-# AHHHHHHHHH
+<!-- # AHHHHHHHHH -->
 
-If you had any doubts whether to get into Computer Science, you will figure out that engineering was the correct choice after taking this course. You are likely to never code again after trying that course too.
+<!-- If you had any doubts whether to get into Computer Science, you will figure out that engineering was the correct choice after taking this course. You are likely to never code again after trying that course too. -->
 
-# Want... More Details?
-Look, to be blunt, the course isn't about coding. It is about... how do
-I put that, it is about SYNTAX man. No you won't be making cool l337
-programs. You can use `printf` and functions by the end of the course
-tho, LOL. I hope you enjoy coding on paper, cuz that what you will be doing!
+<!-- # Want... More Details? -->
+<!-- Look, to be blunt, the course isn't about coding. It is about... how do -->
+<!-- I put that, it is about SYNTAX man. No you won't be making cool l337 -->
+<!-- programs. You can use `printf` and functions by the end of the course -->
+<!-- tho, LOL. I hope you enjoy coding on paper, cuz that what you will be doing! -->
 
-*And NO this isn't about the Professor/Dr. being bad, he was
-really nice, the course itself is trash.*
+<!-- *And NO this isn't about the Professor/Dr. being bad, he was -->
+<!-- really nice, the course itself is trash.* -->
 
 # TF! who do I pass?
 
@@ -53,7 +53,7 @@ project.
 
 # Last words
 
-This post was a joke ;)  
+<!-- This post was a joke ;)   -->
 aaaand the intro was by [Aphyr](https://aphyr.com/posts/341-hexing-the-technical-interview), modified.  
 I should post the project when the grades gets released.
 
