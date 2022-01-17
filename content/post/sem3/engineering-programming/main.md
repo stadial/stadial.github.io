@@ -8,7 +8,7 @@ links:
     website: final-exam
   - title: Project
     description: PDF file for my project, got me 100%
-    website: project.pdf
+    website: /sem3/programming-project.pdf
     <!-- image: ts-logo-128.jpg -->
 slug: sem3/engineering-programing
 <!--image: helena-hertz-wWZzXlDpMog-unsplash.jpg-->
