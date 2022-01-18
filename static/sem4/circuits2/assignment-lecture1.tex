@@ -1,0 +1,75 @@
+% This is a template for doing homework assignments in LaTeX
+
+\documentclass{article} % This command is used to set the type of document you are working on such as an article, book, or presenation
+
+% \usepackage{geometry} % This package allows the editing of the page layout
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ right=20mm,
+ bottom=20mm,
+ }
+\usepackage{amsmath}  % This package allows the use of a large range of mathematical formula, commands, and symbols
+% \usepackage{graphicx}  % This package allows the importing of images
+\usepackage[american]{circuitikz}% This package allows the use of circuits, siunitx is used for labels
+
+
+
+\newcommand{\question}[2][]{\begin{flushleft}
+    \textbf{Question #1}: \textit{#2}
+
+\end{flushleft}}
+\newcommand{\sol}{\textbf{Solution}:} %Use if you want a boldface solution line
+\newcommand{\maketitletwo}[2][]{\begin{center}
+    \Large{\textbf{Assignment #1}
+      
+      Circuits I} % Name of course here
+    \vspace{5pt}
+    
+    \normalsize{}        % Change to due date if preferred
+    \vspace{15pt}
+    
+  \end{center}}
+\begin{document}
+\maketitletwo[1]  % Optional argument is assignment number
+% Keep a blank space between maketitletwo and \question[1]
+
+
+%\question[1]{Use the following diagram to Answer Question \textit{2} and \textit{3} } 
+\begin{figure}[h]\centering
+\begin{circuitikz} \draw
+% Left side
+  (0,0) to[V,l=$10V$,invert] ++(0,3)
+        to[R,l=$2\Omega$] ++(0,2) node[coordinate](UPPER-LEFT){}
+        to[R,l=$4\Omega$] ++(3,0) node[coordinate](ABOVE-6OHM){}
+        to[short] ++(3,0) node[coordinate](ABOVE-10OHM){}
+        to[R,l=$16\Omega$] ++(3,0)
+        to[R,l=$20\Omega$] ++(0,-2)
+        to[V,l=$20V$]      ++(0,-3)
+        to[R,l=$4\Omega$]      ++(-9,0)
+ (UPPER-LEFT)
+        to[short] ++(0,2)
+        to[R,l=$2\Omega$] ++(4.5,0)
+        to[V,l=$15V$] ++(4.5,0)
+        to[R,l=$8\Omega$] ++(0,-2)
+(ABOVE-6OHM)
+        to[R,l=$6\Omega$] ++(0,-5)
+        to node[ground]{} ++(0,0)
+(ABOVE-10OHM)
+        to[R,l=$10\Omega$] ++(0,-5)
+        
+;
+\draw[thin, <-, >=triangle 45] (1.5,2.5)node{$i_1$}  ++(-60:0.5) arc (-60:170:0.5);
+\draw[thin, <-, >=triangle 45] (4.5,2.5)node{$i_2$}  ++(-60:0.5) arc (-60:170:0.5);
+\draw[thin, <-, >=triangle 45] (7.5,2.5)node{$i_3$}  ++(-60:0.5) arc (-60:170:0.5);
+\draw[thin, <-, >=triangle 45] (4.5,6.0)node{$i_4$}  ++(-60:0.5) arc (-60:170:0.5);
+
+\end{circuitikz}
+\end{figure}
+
+
+\end{document}
+
