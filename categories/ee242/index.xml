@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EE242 on Stadial's Site!</title><link>https://stadial.github.io/categories/ee242/</link><description>Recent content in EE242 on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/categories/ee242/index.xml" rel="self" type="application/rss+xml"/><item><title>Circuits II: Lecture 1</title><link>https://stadial.github.io/p/sem4/circuits2/lecture1/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/circuits2/lecture1/</guid><description>tl;dr The lecture introduced the matrix notation for KVL
+Basics As we already know from Circuit I, applying KVL&amp;rsquo;s law to a mesh is given by the equation:
+$$ \sum{v} = 0 $$
+Which can be expanded further, using ohm&amp;rsquo;s law $V=IR$.
+$$ \sum{R_S I_S} - \sum{R_m I_m} = \sum{V_s} $$
+Where $R_S$ and $I_S$ are the resistance and currents in the mesh, $R_m$ and $I_m$ are the resistance and currents in the mesh that are shared between other meshs, and $v_S$ is is the source voltage (more on polarity later).</description></item></channel></rss>

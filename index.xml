@@ -1,4 +1,172 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Engineering Groups</title><link>https://stadial.github.io/p/eng-groups/</link><pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/eng-groups/</guid><description>&lt;p>To add links, please send an email to &lt;code>kfulain.uphrj[at]aleeas.com&lt;/code>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Circuits II: Lecture 1</title><link>https://stadial.github.io/p/sem4/circuits2/lecture1/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/circuits2/lecture1/</guid><description>&lt;h1 id="tldr">tl;dr&lt;/h1>
+&lt;p>The lecture introduced the matrix notation for KVL&lt;/p>
+&lt;h1 id="basics">Basics&lt;/h1>
+&lt;p>As we already know from &lt;em>Circuit I&lt;/em>, applying KVL&amp;rsquo;s law to a mesh is
+given by the equation:&lt;/p>
+&lt;p>$$
+\sum{v} = 0
+$$&lt;/p>
+&lt;p>Which can be expanded further, using ohm&amp;rsquo;s law $V=IR$.&lt;/p>
+&lt;p>$$
+\sum{R_S I_S} -
+\sum{R_m I_m} =
+\sum{V_s}
+$$&lt;/p>
+&lt;p>Where $R_S$ and $I_S$ are the resistance and currents in the mesh,
+$R_m$ and $I_m$ are the resistance and currents in the mesh that are
+shared between other meshs, and $v_S$ is is the source voltage (more
+on polarity later).&lt;/p>
+&lt;p>For example, &lt;figure
+class="gallery-image"
+style="
+flex-grow: 129;
+flex-basis: 311px"
+>
+&lt;a href="https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs.png" data-size="472x364">
+&lt;img src="https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs.png"
+width="472"
+height="364"
+srcset="https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Example 3.5, Funds of EE, 5th edition">
+&lt;/a>
+&lt;figcaption>Example 3.5, Funds of EE, 5th edition&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>We can simplfy find the mesh equation for $i_1$ as follows&lt;/p>
+&lt;p>$$
+\sum{R_S I_S} = (5+10)i_1
+$$
+$$
+\sum{R_m I_m} = 10i_2
+$$
+$$
+\sum{V_s} = 15-10 \text{(polarity will be explained in greater detail)}
+$$&lt;/p>
+&lt;h1 id="v_ss-polarity">$V_s$&amp;rsquo;s Polarity&lt;/h1>
+&lt;p>Remember that a voltage supply pushes (conventional) current out of
+its postive terminal!&lt;/p>
+&lt;p>$V_s$&amp;rsquo;s polarity looks tricky but is actually simple. If the voltage
+supply helps in generating the current, it is postive, and if it
+resists the current flow it is negative.&lt;br>
+An example should make this clear&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 193;
+flex-basis: 465px"
+>
+&lt;a href="https://stadial.github.io/p/sem4/circuits2/lecture1/voltage_supply_polarity.png" data-size="901x465">
+&lt;img src="https://stadial.github.io/p/sem4/circuits2/lecture1/voltage_supply_polarity.png"
+width="901"
+height="465"
+srcset="https://stadial.github.io/p/sem4/circuits2/lecture1/voltage_supply_polarity_hu7b095070a0e21edf2241f4f17ca1fc51_24521_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem4/circuits2/lecture1/voltage_supply_polarity_hu7b095070a0e21edf2241f4f17ca1fc51_24521_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Figure 3.17, Funds of EE, 5th edition">
+&lt;/a>
+&lt;figcaption>Figure 3.17, Funds of EE, 5th edition&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>When working on $i_1$, $V_1$ pushes current in the same direction as
+mesh&amp;rsquo;s current. Therefore we consider $V_1$ to be postive.&lt;/p>
+&lt;p>Now, when working with $i_2$, what is the polarity of $V_2$?&lt;/p>
+&lt;details>
+&lt;summary>Show Answer&lt;/summary>
+&lt;p>$V_2$ pushes current in a direction that is opposite to $i_2$,
+therfore it is considered to be negative&lt;/p>
+&lt;/details>
+&lt;h1 id="matrices">Matrices&lt;/h1>
+&lt;p>One can see that it requires $n$ number of equations to solve a
+circuit composed of $n$ meshs. An alternative Simpler way would be to
+solve using matrices.&lt;br>
+Recall that&lt;/p>
+&lt;p>$$
+RI=V
+$$&lt;/p>
+&lt;p>Which also works for matrices
+$$
+\begin{bmatrix} R \end{bmatrix}
+\begin{bmatrix} I \end{bmatrix} =
+\begin{bmatrix} V \end{bmatrix}
+$$&lt;/p>
+&lt;p>A general rule could be used to help solve Mesh by inspection&lt;/p>
+&lt;p>$$
+\begin{bmatrix} R_{11} &amp;amp; R_{12} \\ R_{21} &amp;amp; R_{22} \end{bmatrix}
+\begin{bmatrix} I_1 \\ I_2 \end{bmatrix} =
+\begin{bmatrix} V_1 \\ V_2 \end{bmatrix}
+$$&lt;/p>
+&lt;p>$$
+\begin{bmatrix}
+R_{11} &amp;amp; R_{12} &amp;amp; R_{13} \\
+R_{21} &amp;amp; R_{22} &amp;amp; R_{23} \\
+R_{31} &amp;amp; R_{32} &amp;amp; R_{33}
+\end{bmatrix}
+\begin{bmatrix} I_1 \\ I_2 \\ I_3 \end{bmatrix} =
+\begin{bmatrix} V_1 \\ V_2 \\ V_3 \end{bmatrix}
+$$
+and so on.&lt;/p>
+&lt;p>Where $R_{nn}$ is the sum of resistors in mesh $i_n$, and $R_{nm}$ is
+the sum of resistors that are in between meshs $i_m$ and $i_n$.&lt;/p>
+&lt;p>An example can be used to simplfy the previous sentence.&lt;/p>
+&lt;p>&lt;strong>Notice the polarity&lt;/strong>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 129;
+flex-basis: 311px"
+>
+&lt;a href="https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs.png" data-size="472x364">
+&lt;img src="https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs.png"
+width="472"
+height="364"
+srcset="https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_480x0_resize_box_3.png 480w, https://stadial.github.io/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Example 3.5, Funds of EE, 5th edition">
+&lt;/a>
+&lt;figcaption>Example 3.5, Funds of EE, 5th edition&lt;/figcaption>
+&lt;/figure>
+$$
+R_{11} = 5 + 10 = 15 \text{ (Sum of resistors in the path of } i_1 \text{)}
+$$&lt;/p>
+&lt;p>$$
+R_{12} = -10 \text{ (Sum of resistors in the path of } i_1
+\text{and } i_2 \text{)}
+$$&lt;/p>
+&lt;p>$$
+R_{12} = R_{21} = -10
+$$&lt;/p>
+&lt;p>$$
+R_{22} = 6 + 4 + 10 = 20 \text{ (Sum of resistors in the path of } i_1 \text{)}
+$$&lt;/p>
+&lt;p>This process can be done for matrices of any size&lt;/p>
+&lt;h1 id="what-is-the-point-of-matrices">What is the point of matrices?&lt;/h1>
+&lt;ol>
+&lt;li>Easier to solve (for both humans and computers)&lt;/li>
+&lt;li>Can be found by simple inspection&lt;/li>
+&lt;/ol>
+&lt;p>Given that we know Ohm&amp;rsquo;s law in terms of matrices,
+$$
+\begin{bmatrix} R \end{bmatrix}
+\begin{bmatrix} I \end{bmatrix} =
+\begin{bmatrix} V \end{bmatrix}
+$$&lt;/p>
+&lt;p>We can solve for $I$ by simple&lt;/p>
+&lt;p>$$
+\begin{bmatrix} I \end{bmatrix} =
+\begin{bmatrix} R \end{bmatrix}^{-1}
+\begin{bmatrix} V \end{bmatrix}
+$$
+&lt;strong>Note that the following is &lt;em>NOT&lt;/em> correct&lt;/strong>&lt;/p>
+&lt;p>$$
+\begin{bmatrix} I \end{bmatrix} =
+\begin{bmatrix} V \end{bmatrix}
+\begin{bmatrix} R \end{bmatrix}^{-1}
+$$&lt;/p>
+&lt;h1 id="last-words-and-hw">Last words and HW&lt;/h1>
+&lt;p>I would like to solve a full example, but that would be too much work.
+The Homework file is available as both PDF and $\LaTeX$&lt;/p>
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://stadial.github.io/sem4/circuits2/assignment-lecture1.pdf" >Homeword: PDF&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stadial.github.io/sem4/circuits2/assignment-lecture1.tex" >Homeword: LaTeX&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Engineering Groups</title><link>https://stadial.github.io/p/eng-groups/</link><pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/eng-groups/</guid><description>&lt;p>To add links, please send an email to &lt;code>kfulain.uphrj[at]aleeas.com&lt;/code>
 and expect updates in ~24hrs.&lt;br>
 Or join &lt;a class="link" href="https://chat.whatsapp.com/JvEwxtYD60OKuxQEW78xMm" target="_blank" rel="noopener"
 >The Whatsapp Group&lt;/a>!&lt;/p>
