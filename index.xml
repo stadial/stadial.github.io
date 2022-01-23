@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Circuits II: Lecture 1</title><link>https://stadial.github.io/p/sem4/circuits2/lecture1/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/circuits2/lecture1/</guid><description>&lt;h1 id="tldr">tl;dr&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Circuits II: Lecture 2</title><link>https://stadial.github.io/p/sem4/circuits2/lecture2/</link><pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/circuits2/lecture2/</guid><description>&lt;h1 id="tldr">tl;dr&lt;/h1>
+&lt;p>The lecture introduced the matrix notation for KCL, i.e. G-Matrices&lt;/p>
+&lt;h1 id="smthn-smthn">smthn smthn&lt;/h1>
+&lt;p>Read the slides and the book section 3.6&lt;/p>
+&lt;h1 id="topics-covered">Topics covered:&lt;/h1>
+&lt;ul>
+&lt;li>What is conductance $G$&lt;/li>
+&lt;li>$[G][V]=[I]$&lt;/li>
+&lt;li>why does ground not matter (mathematically)
+doesn&amp;rsquo;t matter in a sense that we don&amp;rsquo;t use that node for deriving
+equations, also that it doens&amp;rsquo;t need to be zero&lt;/li>
+&lt;/ul>
+&lt;h1 id="homework">Homework&lt;/h1>
+&lt;p>As usual, (isn&amp;rsquo;t it usual if it happend once?) you can find the Homework in both PDF and $\LaTeX$&lt;/p>
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://stadial.github.io/sem4/circuits2/assignment-lecture2.pdf" >Homework: PDF&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stadial.github.io/sem4/circuits2/assignment-lecture2.tex" >Homework: LaTeX&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Circuits II: Lecture 1</title><link>https://stadial.github.io/p/sem4/circuits2/lecture1/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/circuits2/lecture1/</guid><description>&lt;h1 id="tldr">tl;dr&lt;/h1>
 &lt;p>The lecture introduced the matrix notation for KVL&lt;/p>
 &lt;h1 id="basics">Basics&lt;/h1>
 &lt;p>As we already know from &lt;em>Circuit I&lt;/em>, applying KVL&amp;rsquo;s law to a mesh is
