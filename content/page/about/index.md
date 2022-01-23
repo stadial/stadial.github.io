@@ -3,6 +3,7 @@ title: About
 description: About Stadial, and the purpose of this site!
 date: '2022-01-06'
 lastmod: '2022-01-06'
+math: true
 menu:
     main: 
         weight: -90
@@ -19,7 +20,7 @@ Engineer.
 I code in [Rust](https://www.rust-lang.org/),
 [Haskell](https://haskell.org/) and
 [Typescript](https://www.typescriptlang.org/). Use [Artix
-Linux](https://artixlinux.org/) and enjoy RegEx!  
+Linux](https://artixlinux.org/) and enjoy $\LaTeX$!  
 
 In case you are wondering, no this isn't my main blog, this is just
 for college related stuff.

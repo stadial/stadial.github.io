@@ -162,5 +162,5 @@ $$
 I would like to solve a full example, but that would be too much work.
 The Homework file is available as both PDF and $\LaTeX$
 
-1. [Homeword: PDF](/sem4/circuits2/assignment-lecture1.pdf)
-1. [Homeword: LaTeX](/sem4/circuits2/assignment-lecture1.tex)
+1. [Homework: PDF](/sem4/circuits2/assignment-lecture1.pdf)
+1. [Homework: LaTeX](/sem4/circuits2/assignment-lecture1.tex)
