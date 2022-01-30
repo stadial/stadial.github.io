@@ -6,6 +6,9 @@ links:
   - title: Final Exam
     description: The Final Exam questions for 2021/01/04
     website: final-exam
+  - title: Homework Questions
+    description: Homework Questions :) (No answers!)
+    website: /sem3/digital-design-hws.zip
   #- title: Project
     #description: PDF file for my project, got me 100%
     #website: project.pdf
