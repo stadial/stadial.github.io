@@ -17,20 +17,24 @@ You probably know me as lambda-λ, I am an Electrical Engineering
 student at [KFU](https://kfu.edu.sa/), and a self taught Software
 Engineer.
 
-I code in [Rust](https://www.rust-lang.org/),
-[Haskell](https://haskell.org/) and
-[Typescript](https://www.typescriptlang.org/). Use [Artix
-Linux](https://artixlinux.org/) and enjoy $\LaTeX$!  
+I live in an ivory tower where I know that I know nothing. I code (but
+suck at coding) in [Rust](https://www.rust-lang.org/),
+[Haskell (Still learning!)](https://haskell.org/)
+and [Typescript (But forgot!)](https://www.typescriptlang.org/). Use [Artix
+Linux](https://artixlinux.org/) and enjoy [$\LaTeX$](TODO:LINK_LATEX!) (yep,
+I loaded an entire js library just for rendering that word)!  
 
 In case you are wondering, no this isn't my main blog, this is just
-for college related stuff.
+for college related stuff. Definitely have projects in those languages
+but I don't use [this github account](https://github.com/stadial) as
+my main.
 
 # About the site
 This site is something I can look back on say "What a journey". Usage
-by others is a side effect of that.   
+by others is a side effect of that.  
 I don't permit anyone to cheat, or use a project of mine. I don't consent
-to anyone to use this site for academic dishonesty or any other
-illegal act.
+anyone to use this site for academic dishonesty or any other illegal
+act. Also check [disclaimer](/disclaimer)!
 
 # Contact
 I am hard to find, on purpose (I don't use social media). You can email
