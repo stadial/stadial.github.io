@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Circuits II: Lecture 2</title><link>https://stadial.github.io/p/sem4/circuits2/lecture2/</link><pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/circuits2/lecture2/</guid><description>&lt;h1 id="tldr">tl;dr&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Math for EE: Quiz 1</title><link>https://stadial.github.io/p/sem4/mathee/quiz1/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/mathee/quiz1/</guid><description>&lt;p>Quiz was pretty simple but long ;)&lt;/p>
+&lt;h1 id="here-we-go">Here we go:&lt;/h1>
+&lt;p>$$
+A = \begin{bmatrix}
+1 &amp;amp; 2 &amp;amp; 3 \\
+0 &amp;amp; 1 &amp;amp; 2 \\
+1 &amp;amp; 2 &amp;amp; 3 \\
+\end{bmatrix}
+$$&lt;/p>
+&lt;p>$$
+B = \begin{bmatrix}
+3 &amp;amp; 1 &amp;amp; 5 \\
+1 &amp;amp; 0 &amp;amp; 2 \\
+5 &amp;amp; 6 &amp;amp; 1 \\
+\end{bmatrix}
+$$&lt;/p>
+&lt;p>Find $(A-B)^2$ and $(A+B)^2$&lt;/p>
+&lt;details>
+&lt;summary>Solution&lt;/summary>
+&lt;p>This is left as an exercise to the reader ;)&lt;/p>
+&lt;/details>
+&lt;h1 id="last-words">Last words&lt;/h1>
+&lt;p>good luck :D&lt;/p></description></item><item><title>Circuits II: Lecture 2</title><link>https://stadial.github.io/p/sem4/circuits2/lecture2/</link><pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/circuits2/lecture2/</guid><description>&lt;h1 id="tldr">tl;dr&lt;/h1>
 &lt;p>The lecture introduced the matrix notation for KCL, i.e. G-Matrices&lt;/p>
 &lt;h1 id="smthn-smthn">smthn smthn&lt;/h1>
 &lt;p>Read the slides and the book section 3.6&lt;/p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>quiz on Stadial's Site!</title><link>https://stadial.github.io/tags/quiz/</link><description>Recent content in quiz on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/tags/quiz/index.xml" rel="self" type="application/rss+xml"/><item><title>Math for EE: Quiz 1</title><link>https://stadial.github.io/p/sem4/mathee/quiz1/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/mathee/quiz1/</guid><description>Quiz was pretty simple but long ;)
+Here we go: $$ A = \begin{bmatrix} 1 &amp;amp; 2 &amp;amp; 3 \\ 0 &amp;amp; 1 &amp;amp; 2 \\ 1 &amp;amp; 2 &amp;amp; 3 \\ \end{bmatrix} $$
+$$ B = \begin{bmatrix} 3 &amp;amp; 1 &amp;amp; 5 \\ 1 &amp;amp; 0 &amp;amp; 2 \\ 5 &amp;amp; 6 &amp;amp; 1 \\ \end{bmatrix} $$
+Find $(A-B)^2$ and $(A+B)^2$
+Solution This is left as an exercise to the reader ;)</description></item></channel></rss>
