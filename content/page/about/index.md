@@ -41,4 +41,8 @@ I am hard to find, on purpose (I don't use social media). You can email
 me on `kfulain.uphrj[at]aleeas.com`, and expect replies within 24hrs.
 
 
+# Other sites
 
+- [Peertube](https://diode.zone/c/stadial/videos), is where I upload videos
+- [Gitub](https://github.com/stadial)
+- [KFU Coureoffering](https://courseoffering.github.io/), assists in creating tables
