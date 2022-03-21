@@ -14,3 +14,12 @@ Text here
 {{</ detail >}} <!-- For Multiline -->
 
 ```
+
+## Rawhtml
+
+```html
+
+{{< rawhtml >}}
+	<div> Hi </div>
+{{< /rawhtml >}}
+```
