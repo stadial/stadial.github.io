@@ -3,6 +3,8 @@ title: Courseoffering's first beta release!
 description: https://courseoffering.github.io/ first beta release!
 date: '2022-03-21'
 lastmod: '2022-03-21'
+categories:
+  - meta
 ---
 
 
@@ -24,8 +26,12 @@ nah, I have learned that people don't like change.
 
 # Future thoughts?
 
-No. I will continue developing the site for my own personal needs, for
+I will continue developing the site for my own personal needs, for
 I don't want to create a schedule manually.  
 
 I expect others not to use it, and such I won't support anything other
-than Engineering Department.
+than Engineering Department. Had other few more cool ideas, but meh,
+this was a disappointing experience.
+
+Edit: Adding support for other departments is trivial, I will consider
+doing that, maybe next year.
