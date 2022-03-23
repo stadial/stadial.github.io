@@ -1,117 +1,17 @@
-<!doctype html><html lang=en-us>
-<head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="R-G Matrices!"><title>Circuits II: Lecture 1</title>
-<link rel=canonical href=https://stadial.github.io/p/sem4/circuits2/lecture1/>
-<link rel=stylesheet href=/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css><meta property="og:title" content="Circuits II: Lecture 1">
-<meta property="og:description" content="R-G Matrices!">
-<meta property="og:url" content="https://stadial.github.io/p/sem4/circuits2/lecture1/">
-<meta property="og:site_name" content="Stadial's Site!">
-<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="lecture"><meta property="article:published_time" content="2022-01-18T00:00:00+00:00"><meta property="article:modified_time" content="2022-01-18T00:00:00+00:00">
-<meta name=twitter:title content="Circuits II: Lecture 1">
-<meta name=twitter:description content="R-G Matrices!">
-</head>
-<body class=article-page>
-<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
-<div class="container main-container flex
-on-phone--column extended">
-<aside class="sidebar left-sidebar sticky">
-<button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label="Toggle Menu">
-<span class=hamburger-box>
-<span class=hamburger-inner></span>
-</span>
-</button>
-<header class=site-info>
-<figure class=site-avatar>
-<img src=/img/avatar.png width=300 height=300 class=site-logo loading=lazy alt=Avatar>
-<span class=emoji>λ</span>
-</figure>
-<h1 class=site-name><a href=/>Stadial's Site!</a></h1>
-<h2 class=site-description>Electrical and Software Engineer(ing Student)</h2><ol class=social-menu>
-<li>
-<a href=https://github.com/stadial target=_blank title=GitHub><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
-</a>
-</li>
-</ol></header>
-<ol class=menu id=main-menu>
-<li>
-<a href=/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
-<span>Home</span>
-</a>
-</li>
-<li>
-<a href=/about/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>
-<span>About</span>
-</a>
-</li>
-<li>
-<a href=/archives/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
-<span>Archives</span>
-</a>
-</li>
-<li>
-<a href=/search/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
-<span>Search</span>
-</a>
-</li>
-<li id=dark-mode-toggle><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
-<span>Dark Mode</span>
-</li>
-</ol>
-</aside>
-<main class="main full-width">
-<article class=main-article>
-<header class=article-header>
-<div class=article-details>
-<header class=article-category>
-<a href=/categories/ee242/>
-EE242
-</a>
-</header>
-<h2 class=article-title>
-<a href=/p/sem4/circuits2/lecture1/>Circuits II: Lecture 1</a>
-</h2>
-<h3 class=article-subtitle>
-R-G Matrices!
-</h3>
-<footer class=article-time>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
-<time class=article-time--published>Jan 18, 2022</time>
-</div>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
-<time class=article-time--reading>
-3 minute read
-</time>
-</div>
-</footer>
-</div>
-</header>
-<section class=article-content>
-<h1 id=tldr>tl;dr</h1>
-<p>The lecture introduced the matrix notation for KVL</p>
-<h1 id=basics>Basics</h1>
-<p>As we already know from <em>Circuit I</em>, applying KVL&rsquo;s law to a mesh is
-given by the equation:</p>
-<p>$$
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="R-G Matrices!"><title>Circuits II: Lecture 1</title><link rel=canonical href=https://stadial.github.io/p/sem4/circuits2/lecture1/><link rel=stylesheet href=/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css><meta property="og:title" content="Circuits II: Lecture 1"><meta property="og:description" content="R-G Matrices!"><meta property="og:url" content="https://stadial.github.io/p/sem4/circuits2/lecture1/"><meta property="og:site_name" content="Stadial's Site!"><meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="lecture"><meta property="article:published_time" content="2022-01-18T00:00:00+00:00"><meta property="article:modified_time" content="2022-01-18T00:00:00+00:00"><meta name=twitter:title content="Circuits II: Lecture 1"><meta name=twitter:description content="R-G Matrices!"></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex
+on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label="Toggle Menu">
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header class=site-info><figure class=site-avatar><img src=/img/avatar.png width=300 height=300 class=site-logo loading=lazy alt=Avatar>
+<span class=emoji>λ</span></figure><h1 class=site-name><a href=/>Stadial's Site!</a></h1><h2 class=site-description>Electrical and Software Engineer(ing Student)</h2><ol class=social-menu><li><a href=https://github.com/stadial target=_blank title=GitHub><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li></ol></header><ol class=menu id=main-menu><li><a href=/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg><span>Home</span></a></li><li><a href=/about/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg><span>About</span></a></li><li><a href=/archives/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg><span>Archives</span></a></li><li><a href=/search/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg><span>Search</span></a></li><li id=dark-mode-toggle><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><span>Dark Mode</span></li></ol></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=/categories/ee242/>EE242</a></header><h2 class=article-title><a href=/p/sem4/circuits2/lecture1/>Circuits II: Lecture 1</a></h2><h3 class=article-subtitle>R-G Matrices!</h3><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Jan 18, 2022</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><time class=article-time--reading>3 minute read</time></div></footer></div></header><section class=article-content><h1 id=tldr>tl;dr</h1><p>The lecture introduced the matrix notation for KVL</p><h1 id=basics>Basics</h1><p>As we already know from <em>Circuit I</em>, applying KVL&rsquo;s law to a mesh is
+given by the equation:</p><p>$$
 \sum{v} = 0
-$$</p>
-<p>Which can be expanded further, using ohm&rsquo;s law $V=IR$.</p>
-<p>$$
+$$</p><p>Which can be expanded further, using ohm&rsquo;s law $V=IR$.</p><p>$$
 \sum{R_S I_S} -
 \sum{R_m I_m} =
 \sum{V_s}
-$$</p>
-<p>Where $R_S$ and $I_S$ are the resistance and currents in the mesh,
+$$</p><p>Where $R_S$ and $I_S$ are the resistance and currents in the mesh,
 $R_m$ and $I_m$ are the resistance and currents in the mesh that are
 shared between other meshs, and $v_S$ is is the source voltage (more
-on polarity later).</p>
-<p>For example, <figure class=gallery-image style=flex-grow:129;flex-basis:311px>
-<a href=/p/sem4/circuits2/lecture1/2meshs.png data-size=472x364>
-<img src=/p/sem4/circuits2/lecture1/2meshs.png width=472 height=364 srcset="/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_480x0_resize_box_3.png 480w, /p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_1024x0_resize_box_3.png 1024w" loading=lazy alt="Example 3.5, Funds of EE, 5th edition">
-</a>
-<figcaption>Example 3.5, Funds of EE, 5th edition</figcaption>
-</figure></p>
-<p>We can simplfy find the mesh equation for $i_1$ as follows</p>
-<p>$$
+on polarity later).</p><p>For example,<figure class=gallery-image style=flex-grow:129;flex-basis:311px><a href=/p/sem4/circuits2/lecture1/2meshs.png data-size=472x364><img src=/p/sem4/circuits2/lecture1/2meshs.png width=472 height=364 srcset="/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_480x0_resize_box_3.png 480w, /p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_1024x0_resize_box_3.png 1024w" loading=lazy alt="Example 3.5, Funds of EE, 5th edition"></a><figcaption>Example 3.5, Funds of EE, 5th edition</figcaption></figure></p><p>We can simplfy find the mesh equation for $i_1$ as follows</p><p>$$
 \sum{R_S I_S} = (5+10)i_1
 $$
 $$
@@ -119,49 +19,25 @@ $$
 $$
 $$
 \sum{V_s} = 15-10 \text{(polarity will be explained in greater detail)}
-$$</p>
-<h1 id=v_ss-polarity>$V_s$&rsquo;s Polarity</h1>
-<p>Remember that a voltage supply pushes (conventional) current out of
-its postive terminal!</p>
-<p>$V_s$&rsquo;s polarity looks tricky but is actually simple. If the voltage
+$$</p><h1 id=v_ss-polarity>$V_s$&rsquo;s Polarity</h1><p>Remember that a voltage supply pushes (conventional) current out of
+its postive terminal!</p><p>$V_s$&rsquo;s polarity looks tricky but is actually simple. If the voltage
 supply helps in generating the current, it is postive, and if it
-resists the current flow it is negative.<br>
-An example should make this clear</p>
-<p><figure class=gallery-image style=flex-grow:193;flex-basis:465px>
-<a href=/p/sem4/circuits2/lecture1/voltage_supply_polarity.png data-size=901x465>
-<img src=/p/sem4/circuits2/lecture1/voltage_supply_polarity.png width=901 height=465 srcset="/p/sem4/circuits2/lecture1/voltage_supply_polarity_hu7b095070a0e21edf2241f4f17ca1fc51_24521_480x0_resize_box_3.png 480w, /p/sem4/circuits2/lecture1/voltage_supply_polarity_hu7b095070a0e21edf2241f4f17ca1fc51_24521_1024x0_resize_box_3.png 1024w" loading=lazy alt="Figure 3.17, Funds of EE, 5th edition">
-</a>
-<figcaption>Figure 3.17, Funds of EE, 5th edition</figcaption>
-</figure></p>
-<p>When working on $i_1$, $V_1$ pushes current in the same direction as
-mesh&rsquo;s current. Therefore we consider $V_1$ to be postive.</p>
-<p>Now, when working with $i_2$, what is the polarity of $V_2$?</p>
-<details>
-<summary>Show Answer</summary>
-<p>$V_2$ pushes current in a direction that is opposite to $i_2$,
-therfore it is considered to be negative</p>
-</details>
-<h1 id=matrices>Matrices</h1>
-<p>One can see that it requires $n$ number of equations to solve a
+resists the current flow it is negative.<br>An example should make this clear</p><p><figure class=gallery-image style=flex-grow:193;flex-basis:465px><a href=/p/sem4/circuits2/lecture1/voltage_supply_polarity.png data-size=901x465><img src=/p/sem4/circuits2/lecture1/voltage_supply_polarity.png width=901 height=465 srcset="/p/sem4/circuits2/lecture1/voltage_supply_polarity_hu7b095070a0e21edf2241f4f17ca1fc51_24521_480x0_resize_box_3.png 480w, /p/sem4/circuits2/lecture1/voltage_supply_polarity_hu7b095070a0e21edf2241f4f17ca1fc51_24521_1024x0_resize_box_3.png 1024w" loading=lazy alt="Figure 3.17, Funds of EE, 5th edition"></a><figcaption>Figure 3.17, Funds of EE, 5th edition</figcaption></figure></p><p>When working on $i_1$, $V_1$ pushes current in the same direction as
+mesh&rsquo;s current. Therefore we consider $V_1$ to be postive.</p><p>Now, when working with $i_2$, what is the polarity of $V_2$?</p><details><summary>Show Answer</summary><p>$V_2$ pushes current in a direction that is opposite to $i_2$,
+therfore it is considered to be negative</p></details><h1 id=matrices>Matrices</h1><p>One can see that it requires $n$ number of equations to solve a
 circuit composed of $n$ meshs. An alternative Simpler way would be to
-solve using matrices.<br>
-Recall that</p>
-<p>$$
+solve using matrices.<br>Recall that</p><p>$$
 RI=V
-$$</p>
-<p>Which also works for matrices
+$$</p><p>Which also works for matrices
 $$
 \begin{bmatrix} R \end{bmatrix}
 \begin{bmatrix} I \end{bmatrix} =
 \begin{bmatrix} V \end{bmatrix}
-$$</p>
-<p>A general rule could be used to help solve Mesh by inspection</p>
-<p>$$
+$$</p><p>A general rule could be used to help solve Mesh by inspection</p><p>$$
 \begin{bmatrix} R_{11} & R_{12} \\ R_{21} & R_{22} \end{bmatrix}
 \begin{bmatrix} I_1 \\ I_2 \end{bmatrix} =
 \begin{bmatrix} V_1 \\ V_2 \end{bmatrix}
-$$</p>
-<p>$$
+$$</p><p>$$
 \begin{bmatrix}
 R_{11} & R_{12} & R_{13} \\
 R_{21} & R_{22} & R_{23} \\
@@ -170,136 +46,36 @@ R_{31} & R_{32} & R_{33}
 \begin{bmatrix} I_1 \\ I_2 \\ I_3 \end{bmatrix} =
 \begin{bmatrix} V_1 \\ V_2 \\ V_3 \end{bmatrix}
 $$
-and so on.</p>
-<p>Where $R_{nn}$ is the sum of resistors in mesh $i_n$, and $R_{nm}$ is
-the sum of resistors that are in between meshs $i_m$ and $i_n$.</p>
-<p>An example can be used to simplfy the previous sentence.</p>
-<p><strong>Notice the polarity</strong>
-<figure class=gallery-image style=flex-grow:129;flex-basis:311px>
-<a href=/p/sem4/circuits2/lecture1/2meshs.png data-size=472x364>
-<img src=/p/sem4/circuits2/lecture1/2meshs.png width=472 height=364 srcset="/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_480x0_resize_box_3.png 480w, /p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_1024x0_resize_box_3.png 1024w" loading=lazy alt="Example 3.5, Funds of EE, 5th edition">
-</a>
-<figcaption>Example 3.5, Funds of EE, 5th edition</figcaption>
-</figure>
-$$
+and so on.</p><p>Where $R_{nn}$ is the sum of resistors in mesh $i_n$, and $R_{nm}$ is
+the sum of resistors that are in between meshs $i_m$ and $i_n$.</p><p>An example can be used to simplfy the previous sentence.</p><p><strong>Notice the polarity</strong><figure class=gallery-image style=flex-grow:129;flex-basis:311px><a href=/p/sem4/circuits2/lecture1/2meshs.png data-size=472x364><img src=/p/sem4/circuits2/lecture1/2meshs.png width=472 height=364 srcset="/p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_480x0_resize_box_3.png 480w, /p/sem4/circuits2/lecture1/2meshs_hu210798f81c3de32afa4c30dc797878bd_22903_1024x0_resize_box_3.png 1024w" loading=lazy alt="Example 3.5, Funds of EE, 5th edition"></a><figcaption>Example 3.5, Funds of EE, 5th edition</figcaption></figure>$$
 R_{11} = 5 + 10 = 15 \text{ (Sum of resistors in the path of } i_1 \text{)}
-$$</p>
-<p>$$
+$$</p><p>$$
 R_{12} = -10 \text{ (Sum of resistors in the path of } i_1
 \text{and } i_2 \text{)}
-$$</p>
-<p>$$
+$$</p><p>$$
 R_{12} = R_{21} = -10
-$$</p>
-<p>$$
+$$</p><p>$$
 R_{22} = 6 + 4 + 10 = 20 \text{ (Sum of resistors in the path of } i_1 \text{)}
-$$</p>
-<p>This process can be done for matrices of any size</p>
-<h1 id=what-is-the-point-of-matrices>What is the point of matrices?</h1>
-<ol>
-<li>Easier to solve (for both humans and computers)</li>
-<li>Can be found by simple inspection</li>
-</ol>
-<p>Given that we know Ohm&rsquo;s law in terms of matrices,
+$$</p><p>This process can be done for matrices of any size</p><h1 id=what-is-the-point-of-matrices>What is the point of matrices?</h1><ol><li>Easier to solve (for both humans and computers)</li><li>Can be found by simple inspection</li></ol><p>Given that we know Ohm&rsquo;s law in terms of matrices,
 $$
 \begin{bmatrix} R \end{bmatrix}
 \begin{bmatrix} I \end{bmatrix} =
 \begin{bmatrix} V \end{bmatrix}
-$$</p>
-<p>We can solve for $I$ by simple</p>
-<p>$$
+$$</p><p>We can solve for $I$ by simple</p><p>$$
 \begin{bmatrix} I \end{bmatrix} =
 \begin{bmatrix} R \end{bmatrix}^{-1}
 \begin{bmatrix} V \end{bmatrix}
 $$
-<strong>Note that the following is <em>NOT</em> correct</strong></p>
-<p>$$
+<strong>Note that the following is <em>NOT</em> correct</strong></p><p>$$
 \begin{bmatrix} I \end{bmatrix} =
 \begin{bmatrix} V \end{bmatrix}
 \begin{bmatrix} R \end{bmatrix}^{-1}
-$$</p>
-<h1 id=last-words-and-hw>Last words and HW</h1>
-<p>I would like to solve a full example, but that would be too much work.
-The Homework file is available as both PDF and $\LaTeX$</p>
-<ol>
-<li><a class=link href=/sem4/circuits2/assignment-lecture1.pdf>Homework: PDF</a></li>
-<li><a class=link href=/sem4/circuits2/assignment-lecture1.tex>Homework: LaTeX</a></li>
-</ol>
-</section>
-<footer class=article-footer>
-<section class=article-tags>
-<a href=/tags/lecture/>lecture</a>
-</section>
-<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
-<span>Licensed under CC BY-NC-SA 4.0</span>
-</section>
-</footer>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
-</article>
-<aside class=related-contents--wrapper>
-<h2 class=section-title>Related contents</h2>
-<div class=related-contents>
-<div class="flex article-list--tile">
-<article>
-<a href=/p/sem4/circuits2/lecture2/>
-<div class=article-details>
-<h2 class=article-title>Circuits II: Lecture 2</h2>
-</div>
-</a>
-</article>
-</div>
-</div>
-</aside>
-<footer class=site-footer>
-<section class=copyright>
-&copy;
+$$</p><h1 id=last-words-and-hw>Last words and HW</h1><p>I would like to solve a full example, but that would be too much work.
+The Homework file is available as both PDF and $\LaTeX$</p><ol><li><a class=link href=/sem4/circuits2/assignment-lecture1.pdf>Homework: PDF</a></li><li><a class=link href=/sem4/circuits2/assignment-lecture1.tex>Homework: LaTeX</a></li></ol></section><footer class=article-footer><section class=article-tags><a href=/tags/lecture/>lecture</a></section><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg><span>Licensed under CC BY-NC-SA 4.0</span></section></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script></article><aside class=related-contents--wrapper><h2 class=section-title>Related contents</h2><div class=related-contents><div class="flex article-list--tile"><article><a href=/p/sem4/circuits2/lecture2/><div class=article-details><h2 class=article-title>Circuits II: Lecture 2</h2></div></a></article></div></div></aside><footer class=site-footer><section class=copyright>&copy;
 2021 -
-2022 Stadial's Site!
-</section>
-<section class=powerby>
-Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
-Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.6.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
-</section>
-</footer>
-<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
-<div class=pswp__bg></div>
-<div class=pswp__scroll-wrap>
-<div class=pswp__container>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-</div>
-<div class="pswp__ui pswp__ui--hidden">
-<div class=pswp__top-bar>
-<div class=pswp__counter></div>
-<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+2022 Stadial's Site!</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.6.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-<div class=pswp__preloader>
-<div class=pswp__preloader__icn>
-<div class=pswp__preloader__cut>
-<div class=pswp__preloader__donut></div>
-</div>
-</div>
-</div>
-</div>
-<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-<div class=pswp__share-tooltip></div>
-</div>
-<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-</button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-</button>
-<div class=pswp__caption>
-<div class=pswp__caption__center></div>
-</div>
-</div>
-</div>
-</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
-</main>
-</div>
-<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
-<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
-</body>
-</html>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
