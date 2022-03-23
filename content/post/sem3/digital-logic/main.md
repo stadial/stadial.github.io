@@ -15,8 +15,8 @@ links:
 slug: sem3/digital-logic
 <!--image: helena-hertz-wWZzXlDpMog-unsplash.jpg-->
 categories:
-    - Course
     - EE232
+tags:
     - 3rd Semester
 ---
 

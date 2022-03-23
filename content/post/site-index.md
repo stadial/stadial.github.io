@@ -12,6 +12,11 @@ categories:
 Well, here you can find an index of indices, choose the subject that
 you want, and there you can find more info.
 
+# Meta posts
+- [Create a Schedule Easily!](https://courseoffering.github.io/),
+  [Watch this video first](https://diode.zone/w/gvhSPdhnE9o1i5c2oDNbAu)
+
+
 # Semester 3
 This semster was mostly empty, I had yet to start the site.
 

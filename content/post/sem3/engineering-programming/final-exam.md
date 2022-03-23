@@ -5,8 +5,8 @@ date: 2022-01-06
 slug: sem3/engineering-programing/final-exam
 <!--image: helena-hertz-wWZzXlDpMog-unsplash.jpg-->
 categories:
-    - Final Exam
     - CS204
+tags:
     - 4th Semester
 ---
 

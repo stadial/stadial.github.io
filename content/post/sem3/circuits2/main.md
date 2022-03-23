@@ -9,8 +9,8 @@ links:
 slug: sem3/circuits1
 <!--image: helena-hertz-wWZzXlDpMog-unsplash.jpg-->
 categories:
-    - Course
     - EE241
+tags:
     - 3rd Semester
 ---
 
