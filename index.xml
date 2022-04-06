@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Click Here!</title><link>https://stadial.github.io/p/click-here/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/click-here/</guid><description>&lt;h1 id="how-to-browse-this-site">How to browse this site?&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stadial's Site!</title><link>https://stadial.github.io/</link><description>Recent content on Stadial's Site!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stadial.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Click Here!</title><link>https://stadial.github.io/p/i/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/i/</guid><description>&lt;h1 id="how-to-browse-this-site">How to browse this site?&lt;/h1>
 &lt;p>Well, here you can find an index of indices, choose the subject that
 you want, and there you can find more info.&lt;/p>
 &lt;h1 id="meta-posts">Meta posts&lt;/h1>
@@ -21,8 +21,13 @@ you want, and there you can find more info.&lt;/p>
 &lt;/ul>
 &lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted --></description></item><item><title>Math for EE</title><link>https://stadial.github.io/p/math-for-ee/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/math-for-ee/</guid><description>&lt;h1 id="quizes">Quizes&lt;/h1>
-&lt;p>-&lt;a class="link" href="https://stadial.github.io/p/sem4/mathee/quiz1/" >Quiz 1&lt;/a>&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Announcing the death of this site</title><link>https://stadial.github.io/p/announcing-the-death-of-this-site/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/announcing-the-death-of-this-site/</guid><description>&lt;h1 id="why">Why?&lt;/h1>
+&lt;p>I don&amp;rsquo;t know :(&lt;/p>
+&lt;p>thanks for reading.&lt;/p></description></item><item><title>Math for EE</title><link>https://stadial.github.io/p/math-for-ee/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/math-for-ee/</guid><description>&lt;h1 id="quizes">Quizes&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://stadial.github.io/p/sem4/mathee/quiz1/" >Quiz 1&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stadial.github.io/p/sem4/mathee/quiz2/" >Quiz 2&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h1 id="midterms">Midterms&lt;/h1>
 &lt;p>:(&lt;/p></description></item><item><title>Courseoffering's first beta release!</title><link>https://stadial.github.io/p/courseofferings-first-beta-release/</link><pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/courseofferings-first-beta-release/</guid><description>&lt;h1 id="what-is-this-about">What is this about?&lt;/h1>
 &lt;p>Seriously? you don&amp;rsquo;t know about this? :)&lt;br>
@@ -67,6 +72,22 @@ $$&lt;/p>
 &lt;p>Find $(A-B)^2$ and $(A+B)^2$&lt;/p>
 &lt;details>
 &lt;summary>Solution&lt;/summary>
+&lt;p>This is left as an exercise to the reader ;)&lt;/p>
+&lt;/details>
+&lt;h1 id="last-words">Last words&lt;/h1>
+&lt;p>good luck :D&lt;/p></description></item><item><title>Math for EE: Quiz 2</title><link>https://stadial.github.io/p/sem4/mathee/quiz2/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/mathee/quiz2/</guid><description>&lt;p>Quiz was pretty simple&lt;/p>
+&lt;h1 id="here-we-go">Here we go:&lt;/h1>
+&lt;p>Is the following operator linear or not? (with steps of course!)
+$$
+L(x) = (x_1, -5x_2)
+$$&lt;/p>
+&lt;p>That is it!&lt;/p>
+&lt;p>As a bonus, the other section got &lt;em>almost&lt;/em> the exact same question.&lt;/p>
+&lt;p>$$
+L(x) = (x_1, 5x_2)
+$$&lt;/p>
+&lt;details>
+&lt;summary>Solutions&lt;/summary>
 &lt;p>This is left as an exercise to the reader ;)&lt;/p>
 &lt;/details>
 &lt;h1 id="last-words">Last words&lt;/h1>

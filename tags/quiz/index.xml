@@ -2,4 +2,10 @@
 Here we go: $$ A = \begin{bmatrix} 1 &amp;amp; 2 &amp;amp; 3 \\ 0 &amp;amp; 1 &amp;amp; 2 \\ 1 &amp;amp; 2 &amp;amp; 3 \\ \end{bmatrix} $$
 $$ B = \begin{bmatrix} 3 &amp;amp; 1 &amp;amp; 5 \\ 1 &amp;amp; 0 &amp;amp; 2 \\ 5 &amp;amp; 6 &amp;amp; 1 \\ \end{bmatrix} $$
 Find $(A-B)^2$ and $(A+B)^2$
-Solution This is left as an exercise to the reader ;)</description></item></channel></rss>
+Solution This is left as an exercise to the reader ;)</description></item><item><title>Math for EE: Quiz 2</title><link>https://stadial.github.io/p/sem4/mathee/quiz2/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://stadial.github.io/p/sem4/mathee/quiz2/</guid><description>Quiz was pretty simple
+Here we go: Is the following operator linear or not? (with steps of course!) $$ L(x) = (x_1, -5x_2) $$
+That is it!
+As a bonus, the other section got almost the exact same question.
+$$ L(x) = (x_1, 5x_2) $$
+Solutions This is left as an exercise to the reader ;)
+Last words good luck :D</description></item></channel></rss>
