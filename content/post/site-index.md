@@ -1,5 +1,6 @@
 ---
 title: Click Here!
+slug: /i
 description: How to browse this site.
 date: '2022-03-23'
 lastmod: '2022-03-23'

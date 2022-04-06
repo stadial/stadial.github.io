@@ -8,7 +8,8 @@ categories:
 ---
 
 # Quizes
--[Quiz 1](/p/sem4/mathee/quiz1/) 
+- [Quiz 1](/p/sem4/mathee/quiz1/) 
+- [Quiz 2](/p/sem4/mathee/quiz2/) 
 
 # Midterms
 :(
