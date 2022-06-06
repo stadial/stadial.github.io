@@ -730,7 +730,7 @@ number is even&amp;rdquo; for odd and even numbers, respectively.&lt;/p>
 &lt;/details>
 &lt;details>
 &lt;summary>Show Error 3&lt;/summary>
-&lt;p>missing break after case 1, and YES I know there is no need for that break, I wasn&amp;rsquo;t able to spot any other Error.&lt;/p>
+&lt;p>Switch case 0 and 1.&lt;/p>
 &lt;/details>
 &lt;/p>
 &lt;h2 id="section-3-code">Section 3: Code&lt;/h2>
