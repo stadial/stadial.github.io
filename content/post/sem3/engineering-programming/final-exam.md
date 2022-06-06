@@ -219,7 +219,7 @@ int main(){
 
 {{< detail "Show Error 1" "should use `%` instead of `/`" />}}
 {{< detail "Show Error 2" "missing break after case 0" />}}
-{{< detail "Show Error 3" "missing break after case 1, and YES I know there is no need  for that break, I wasn't able to spot any other Error." />}}
+{{< detail "Show Error 3" " Switch case 0  and 1.
 
 ## Section 3: Code 
 ### Code for a triangle program
